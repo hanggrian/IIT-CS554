@@ -41,7 +41,7 @@ Over the course of its short lifespan of just over 14 years, crypto has risen
 from get-rich-quick schemes among early adopters to the mainstream. We have seen
 their valuations grow and shrink over and over
 again.<sup>[\[2\]]</sup><sup>[\[3\]]</sup> It has since garnered recognition in
-a few countries, sparked a revolution and debate about human interaction with
+a few countries, sparked a revolution, and debate about human interaction with
 money.<sup>[\[4\]]</sup><sup>[\[5\]]</sup>
 
 This paper has the advantage of knowing recent events of crypto downfalls such
@@ -77,7 +77,7 @@ place for all cryptocurrencies.<sup>[\[13\]]</sup>
 5. [MercoPress: Bitcoin legal tender in El Salvador, first country ever](https://en.mercopress.com/2021/06/10/bitcoin-legal-tender-in-el-salvador-first-country-ever/)
 6. [BBC: China declares all crypto-currency transactions illegal](https://www.bbc.com/news/technology-58678907/)
 7. [Bloomberg: Bankman-Fried Resigns From FTX, Puts Empire in Bankruptcy](https://www.bloomberg.com/news/articles/2022-11-11/ftx-com-goes-bankrupt-in-stunning-reversal-for-crypto-exchange)
-8. [Smith, B. W. (2012, November 1). *Automated Vehicles are Probably Legal in the United States*. Stanford Law School. The Center for Internet and Society.](https://cyberlaw.stanford.edu/publications/automated-vehicles-are-probably-legal-united-states/)
+8. [Smith, B. W. (2013). *Automated vehicles are probably legal in the United States*. Tex. A&M L. Rev., 1, 411.](https://cyberlaw.stanford.edu/publications/automated-vehicles-are-probably-legal-united-states/)
 9. [U.S. Department of Transportation](https://www.transportation.gov/AV/federal-automated-vehicles-policy-september-2016/)
 10. [The New York Times: Self-Driving Cars Gain Powerful Ally: The Government](https://www.nytimes.com/2016/09/20/technology/self-driving-cars-guidelines.html)
 11. [NHTSA: NHTSA Issues First-Ever Proposal to Modernize Occupant Protection Safety Standards for Vehicles Without Manual Controls](https://www.nhtsa.gov/press-releases/nhtsa-issues-first-ever-proposal-modernize-occupant-protection-safety-standards/)
