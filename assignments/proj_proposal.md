@@ -2,14 +2,14 @@
 
 ### *Abstract*
 
-Chia is a blockchain-based cryptocurrency that uses Proof of Space and Time
+*Chia is a blockchain-based cryptocurrency that uses Proof of Space and Time
 (PoST) consensus mechanism. The PoST requires the farmer to show that they have
 allocated a certain amount of disk space over a period of time to be eligible to
 create a new block. The process of allocating disk space is known as plotting,
 and Chia allows for different levels of plot compression (0-7) to reduce the
 amount of disk space required for plotting. This project aims to compare the
 different levels of plot compression in terms of their impact on farming speed
-and storage efficiency.<sup>[\[2\]]</sup>
+and storage efficiency.<sup>[\[2\]]</sup>*
 
 ## Introduction
 

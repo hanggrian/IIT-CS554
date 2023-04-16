@@ -34,7 +34,7 @@ inputs with the same output.<sup>[\[1\]]</sup> In an era where consumer data
 passes freely between networks, obfuscating unintended materials is crucial to
 maintain the privacy of our society. This is one of the premises that led to the
 creation of the 2007 cryptographic hash function competition funded by the US
-*National Institute of Standards and Technology* (NIST), in which BLAKE
+*National Institute of Standards and Technology (NIST)*, in which BLAKE
 participated.
 
 BLAKE achieves cryptographic hashes by utilizing a symmetric key cipher.
