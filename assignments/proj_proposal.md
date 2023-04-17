@@ -1,4 +1,4 @@
-# [Project Proposal](https://github.com/hendraanggrian/IIT-CS554/blob/assets/assignments/proj.pdf): Plot Compression in Chia Blockchain
+# [Project Proposal](https://github.com/hendraanggrian/IIT-CS554/blob/assets/assignments/proj.pdf): Plot compression in *Chia* blockchain
 
 ### *Abstract*
 
@@ -41,7 +41,9 @@ while the power increase is exponential for each level of compression. To combat
 this issue, Chia and the community behind the movement have released a series of
 solutions that leverage other parts of the computer.<sup>[\[4\]]</sup>
 
-### Use dedicated GPU
+## Compression strategy
+
+### Use GPU
 
 GPU plotting relies on a dedicated graphic card instead of a CPU. This is
 particularly a good news because modern graphics cards are usually more than
@@ -53,14 +55,14 @@ with [BladeBit CUDA](https://github.com/Chia-Network/bladebit/tree/cuda-compress
 Unfortunately, like madMAx's implementation, Nvidia cards with CUDA capability
 are necessary, this essentially means no AMD cards, or at least not yet.
 
-### Use extra storage
+### Use RAM or storage
 
 The term *BladeBit* also refers to [BladeBit Disk](https://github.com/Chia-Network/bladebit),
 a separate software that leverages in-memory or mainstream storage devices
 instead computing power like CPU and GPU. It has been reported that the high
 performance of this disk-based plotting is even faster than its GPU equivalent.
 
-However, it require hundreds of GigaBytes of RAM/storage, making it only
+However, it require hundreds of GigaBytes of RAM or storage, making it only
 accessible on workstations and servers.
 
 ## Timelines

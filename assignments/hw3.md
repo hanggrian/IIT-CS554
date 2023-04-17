@@ -1,4 +1,4 @@
-# [Homework 3](https://github.com/hendraanggrian/IIT-CS554/blob/assets/assignments/hw3.pdf): SCANNS Indexing & Search
+# [Homework 3](https://github.com/hendraanggrian/IIT-CS554/blob/assets/assignments/hw3.pdf): *SCANNS* indexing & search
 
 > You are to read the [SCANNS paper](http://datasys.cs.iit.edu/publications/2022_CCGrid22-SCANNS.pdf)
   that discusses in detail the indexing and search that is at the core of the

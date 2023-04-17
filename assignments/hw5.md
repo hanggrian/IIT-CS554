@@ -1,4 +1,4 @@
-# [Homework 5](https://github.com/hendraanggrian/IIT-CS554/blob/assets/assignments/hw5.pdf): BLAKE Hash Function
+# [Homework 5](https://github.com/hendraanggrian/IIT-CS554/blob/assets/assignments/hw5.pdf): *BLAKE* hash function
 
 > You are to read the [BLAKE3 paper](https://github.com/BLAKE3-team/BLAKE3-specs/blob/master/blake3.pdf)
   that discusses in detail the BLAKE3 cryptographic hashing algorithm and its
