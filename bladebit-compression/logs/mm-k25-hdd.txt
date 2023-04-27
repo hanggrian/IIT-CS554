@@ -1,0 +1,84 @@
+
+****************************************************************************************
+**   WARNING ! WARNING ! WARNING ! WARNING ! WARNING ! WARNING ! WARNING ! WARNING    **
+**                   !! k < 32 is not supported on chia network !!                    **
+**                  (If you want to plot for chives specify -x 9699)                  **
+****************************************************************************************
+
+Multi-threaded pipelined Chia k32 plotter - 2092041
+Network Port: 8444
+Final Directory: /Volumes/Media/Chia/Final/
+Number of Plots: 1
+Crafting plot 1 out of 1 (2023/04/26 19:46:19)
+Process ID: -1
+Number of Threads: 4
+Number of Buckets P1:    2^8 (256)
+Number of Buckets P3+P4: 2^8 (256)
+Pool Public Key:   940d5e844e1293d8a3e3440a7e62fb41c1fdaf76d52a49b2afc5929eea7151ca4ef7005fe8334e797acd2f921d1ced61
+Farmer Public Key: 90d43c7a4cb1a004a9b61e07a765c829d0a6e9c63492b10f538f700a0d2d11bc229211c84a463a4988cb6de4ac304efc
+Working Directory:   /Volumes/Media/Chia/Temporary/
+Working Directory 2: /Volumes/Media/Chia/Temporary/
+Plot Name: plot-k25-2023-04-26-19-46-7982ca2b0b3cf6fc2d3d524cb0f72e78fbc0eb6d4647fa91d39a53b12eaa30e9
+[P1] Table 1 took 7.12028 sec
+Progress update: 0.01
+[P1] Table 2 took 21.7797 sec, found 33556063 matches
+Progress update: 0.06
+[P1] Table 3 took 26.2451 sec, found 33554794 matches
+Progress update: 0.12
+[P1] Table 4 took 25.45 sec, found 33558215 matches
+Progress update: 0.2
+[P1] Table 5 took 25.3994 sec, found 33562122 matches
+Progress update: 0.28
+[P1] Table 6 took 25.0627 sec, found 33570302 matches
+Progress update: 0.36
+[P1] Table 7 took 17.3898 sec, found 33583002 matches
+Progress update: 0.42
+Phase 1 took 153.601 sec
+[P2] max_table_size = 33583002
+[P2] Table 7 scan took 0.197962 sec
+[P2] Table 7 rewrite took 1.6021 sec, dropped 0 entries (0 %)
+Progress update: 0.43
+[P2] Table 6 scan took 0.223426 sec
+[P2] Table 6 rewrite took 6.58453 sec, dropped 4538479 entries (13.5193 %)
+Progress update: 0.48
+[P2] Table 5 scan took 0.20594 sec
+[P2] Table 5 rewrite took 6.22893 sec, dropped 5946818 entries (17.7188 %)
+Progress update: 0.51
+[P2] Table 4 scan took 0.229826 sec
+[P2] Table 4 rewrite took 5.9069 sec, dropped 6473801 entries (19.2913 %)
+Progress update: 0.55
+[P2] Table 3 scan took 0.186887 sec
+[P2] Table 3 rewrite took 5.98407 sec, dropped 6675080 entries (19.8931 %)
+Progress update: 0.58
+[P2] Table 2 scan took 0.238901 sec
+[P2] Table 2 rewrite took 6.42079 sec, dropped 6761291 entries (20.1492 %)
+Progress update: 0.61
+Phase 2 took 38.8659 sec
+Wrote plot header with 268 bytes
+[P3-1] Table 2 took 8.40596 sec, wrote 26794772 right entries
+[P3-2] Table 2 took 6.71832 sec, wrote 26794772 left entries, 26794772 final
+Progress update: 0.66
+[P3-1] Table 3 took 8.55583 sec, wrote 26879714 right entries
+[P3-2] Table 3 took 6.10346 sec, wrote 26879714 left entries, 26879714 final
+Progress update: 0.73
+[P3-1] Table 4 took 8.36484 sec, wrote 27084414 right entries
+[P3-2] Table 4 took 6.43879 sec, wrote 27084414 left entries, 27084414 final
+Progress update: 0.79
+[P3-1] Table 5 took 8.24033 sec, wrote 27615304 right entries
+[P3-2] Table 5 took 6.14801 sec, wrote 27615304 left entries, 27615304 final
+Progress update: 0.85
+[P3-1] Table 6 took 8.60493 sec, wrote 29031823 right entries
+[P3-2] Table 6 took 6.26619 sec, wrote 29031823 left entries, 29031823 final
+Progress update: 0.92
+[P3-1] Table 7 took 8.52267 sec, wrote 33583002 right entries
+[P3-2] Table 7 took 7.48661 sec, wrote 33583002 left entries, 33583002 final
+Progress update: 0.98
+Phase 3 took 101.864 sec, wrote 170989029 entries to final plot
+[P4] Starting to write C1 and C3 tables
+[P4] Finished writing C1 and C3 tables
+[P4] Writing C2 table
+[P4] Finished writing C2 table
+Phase 4 took 2.67705 sec, final plot size is 671721681 bytes
+Total plot creation time was 297.22 sec (4.95367 min)
+Started copy to /Volumes/Media/Chia/Final/plot-k25-2023-04-26-19-46-7982ca2b0b3cf6fc2d3d524cb0f72e78fbc0eb6d4647fa91d39a53b12eaa30e9.plot
+Renamed final plot to /Volumes/Media/Chia/Final/plot-k25-2023-04-26-19-46-7982ca2b0b3cf6fc2d3d524cb0f72e78fbc0eb6d4647fa91d39a53b12eaa30e9.plot

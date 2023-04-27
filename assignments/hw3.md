@@ -1,4 +1,4 @@
-# [Homework 3](https://github.com/hendraanggrian/IIT-CS554/blob/assets/assignments/hw3.pdf): *SCANNS* indexing & search
+# [Homework 3](https://github.com/hendraanggrian/IIT-CS554/blob/assets/assignments/hw3.pdf): *SCANNS* search platform
 
 > You are to read the [SCANNS paper](http://datasys.cs.iit.edu/publications/2022_CCGrid22-SCANNS.pdf)
   that discusses in detail the indexing and search that is at the core of the
@@ -26,7 +26,7 @@ Chard, K., Giannakou, A., Orhean, A. I., Raicu, I., Ramakrishnan, L. (2022). <i>
   implementation of a real system, simulation, theoretical, empirical
   performance evaluation, survey, etc).
 
-Searches and indexing are integral parts of modern applications. Global
+Searches and indexing are integral parts of modern applications. GlobalXSearch
 internet search traffic is controlled by *Google*, but the enterprise search
 market remains largely uncaptured. See, unlike web search engines that only need
 to parse HTML files, searching in an enterprise environment requires
