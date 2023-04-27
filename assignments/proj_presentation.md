@@ -1,55 +1,106 @@
 # [Project Presentation](https://github.com/hendraanggrian/IIT-CS554/blob/assets/assignments/proj_presentation.pdf): Plot compression in *Chia* blockchain
 
+Phases: https://www.chia.net/wp-content/uploads/2023/01/proof_of_space.pdf
 Graph data: https://nces.ed.gov/nceskids/createagraph/default.aspx?ID=8dea97de41054099bb1ac62768ada6fc
 
 ## Group
 
-![Slide 1.](https://github.com/hendraanggrian/IIT-CS554/raw/assets/bladebit-compression/slide1.png)
+![Slide 1](https://github.com/hendraanggrian/IIT-CS554/raw/assets/bladebit-compression/slide1.png)
 
-## Introduction
+## Introduction 1
 
-![Slide 2.](https://github.com/hendraanggrian/IIT-CS554/raw/assets/bladebit-compression/slide2.png)
+![Slide 2](https://github.com/hendraanggrian/IIT-CS554/raw/assets/bladebit-compression/slide2.png)
+
+## Introduction 2
+
+![Slide 3](https://github.com/hendraanggrian/IIT-CS554/raw/assets/bladebit-compression/slide3.png)
+
+## Introduction 3
+
+![Slide 4](https://github.com/hendraanggrian/IIT-CS554/raw/assets/bladebit-compression/slide4.png)
 
 ## Background
 
-![Slide 3.](https://github.com/hendraanggrian/IIT-CS554/raw/assets/bladebit-compression/slide3.png)
+![Slide 5](https://github.com/hendraanggrian/IIT-CS554/raw/assets/bladebit-compression/slide5.png)
 
 ## Motivation
 
-![Slide 4.](https://github.com/hendraanggrian/IIT-CS554/raw/assets/bladebit-compression/slide4.png)
+![Slide 6](https://github.com/hendraanggrian/IIT-CS554/raw/assets/bladebit-compression/slide6.png)
 
 ## Proposed Solution
 
-![Slide 5.](https://github.com/hendraanggrian/IIT-CS554/raw/assets/bladebit-compression/slide5.png)
+![Slide 7](https://github.com/hendraanggrian/IIT-CS554/raw/assets/bladebit-compression/slide7.png)
 
-## Evaluation: Phase 1
+- We propose test results using commodity hardware.
+  - This personal desktop lies in between the minimum and recommended system
+    requirements from official Chia documentation.
+  - The boot drive is where OS and Chia application are. Chia will use this to
+    store the internal database, so SSD is recommended.
+- It is tested against 3 plotters my colleague has explained all of them.
+- The temporary directory and final directory are prompted for each plot.
 
-![Slide 6.](https://github.com/hendraanggrian/IIT-CS554/raw/assets/bladebit-compression/slide6.png)
+## Evaluation 1
 
-## Evaluation: Phase 2
+![Slide 8](https://github.com/hendraanggrian/IIT-CS554/raw/assets/bladebit-compression/slide8.png)
 
-![Slide 7.](https://github.com/hendraanggrian/IIT-CS554/raw/assets/bladebit-compression/slide7.png)
+- The first phase is what they called forward-propagating.
+- During this process, they are creating temporary files with. Different plotter
+  generates temporary files with different pattern. The graphic you see here is
+  the pattern used by official plotter.
+- In this phase, the farmer also creates and locks the final plot file. It is
+  marked by tmp file extension.
 
-## Evaluation: Phase 3
+## Evaluation 2
 
-![Slide 8.](https://github.com/hendraanggrian/IIT-CS554/raw/assets/bladebit-compression/slide8.png)
+![Slide 9](https://github.com/hendraanggrian/IIT-CS554/raw/assets/bladebit-compression/slide9.png)
 
-## Evaluation: Phase 4
+- In the second stage, they scan the last 6 tables, sort them and keep the
+  sorted keys in a column.
+- The documentation also says that they remove unused data, but I cannot see
+  what they removed from the logs.
 
-![Slide 9.](https://github.com/hendraanggrian/IIT-CS554/raw/assets/bladebit-compression/slide9.png)
+## Evaluation 3
 
-## Evaluation: Findings
+![Slide 10](https://github.com/hendraanggrian/IIT-CS554/raw/assets/bladebit-compression/slide10.png)
 
-![Slide 10.](https://github.com/hendraanggrian/IIT-CS554/raw/assets/bladebit-compression/slide10.png)
+- The third phase is all about compression.
+- All tables change from a column-based system to double-pointers.
+- The performance of this task and log messages are identical to stage 2.
+
+## Evaluation 4
+
+![Slide 11](https://github.com/hendraanggrian/IIT-CS554/raw/assets/bladebit-compression/slide11.png)
+
+- In the last phase, there are always 16 buckets for bucket sort.
+- What is interesting about this phase is Chia automatically checks if your
+  hardware has sufficient RAM for these buckets. If not, they will store them
+  persistently.
+- Those buckets will then write the final plot file, and release the file lock.
+
+## Evaluation 5
+
+![Slide 12](https://github.com/hendraanggrian/IIT-CS554/raw/assets/bladebit-compression/slide12.png)
+
+- Over here are our findings, down below there are two `k25` plots, done in
+  about 2-3 minutes.
+- While `k32`, the most common plot size, is around 12 hours.
+- Phase 4, which involves optional RAM, is unsurprisingly the fastest.
+- As you can see, some of them are unfinished. I did not foresee that it
+  would take 12 hours for each test, and they cannot be executed in parallel.
+- But if you follow the pattern, you can expect about 1-2 hours of saving.
 
 ## Related work
 
-![Slide 11.](https://github.com/hendraanggrian/IIT-CS554/raw/assets/bladebit-compression/slide11.png)
+![Slide 13](https://github.com/hendraanggrian/IIT-CS554/raw/assets/bladebit-compression/slide13.png)
 
-## Conclusion
+## Conclusion 1
 
-![Slide 12.](https://github.com/hendraanggrian/IIT-CS554/raw/assets/bladebit-compression/slide12.png)
+![Slide 14](https://github.com/hendraanggrian/IIT-CS554/raw/assets/bladebit-compression/slide14.png)
 
-## Conclusion: Future work
+## Conclusion 2
 
-![Slide 13.](https://github.com/hendraanggrian/IIT-CS554/raw/assets/bladebit-compression/slide13.png)
+![Slide 15](https://github.com/hendraanggrian/IIT-CS554/raw/assets/bladebit-compression/slide15.png)
+
+- In future work, we could leverage other hardware such as RAM and GPU.
+- Both Chia and madMAx are strict about NVIDIA requirements.
+- But they are more accessible than the 400GB RAM requirement here.

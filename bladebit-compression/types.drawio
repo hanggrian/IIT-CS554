@@ -1,26 +1,32 @@
-<mxfile host="Electron" modified="2023-04-26T21:19:32.396Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.2.1 Chrome/112.0.5615.87 Electron/24.1.2 Safari/537.36" etag="iPEmlyO1Q7AMciJbJkIf" version="21.2.1" type="device">
+<mxfile host="Electron" modified="2023-04-27T05:19:28.605Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.2.1 Chrome/112.0.5615.87 Electron/24.1.2 Safari/537.36" etag="-ENbCPxf1O89fZnqrBMt" version="21.2.1" type="device">
   <diagram name="Page-1" id="kzCVKgHHyriFXRUVI2zW">
-    <mxGraphModel dx="1385" dy="797" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="640" pageHeight="200" math="0" shadow="0">
+    <mxGraphModel dx="920" dy="595" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="919" pageHeight="200" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="6pD-UOqGXuLdC1MG8zGI-3" value="&lt;b&gt;BladeBit RAM&lt;br&gt;&lt;/b&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;416GB RAM&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" vertex="1" parent="1">
-          <mxGeometry x="40" y="80" width="120" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="6pD-UOqGXuLdC1MG8zGI-4" value="&lt;b&gt;BladeBit Disk&lt;br&gt;&lt;/b&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;12GB RAM&lt;br&gt;480GB HDD/SSD&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" vertex="1" parent="1">
+        <mxCell id="6pD-UOqGXuLdC1MG8zGI-3" value="&lt;b&gt;BladeBit (RAM)&lt;br&gt;&lt;/b&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;&lt;br&gt;&lt;br&gt;416GB RAM&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" parent="1" vertex="1">
           <mxGeometry x="180" y="80" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="6pD-UOqGXuLdC1MG8zGI-7" value="&lt;b&gt;Gigahorse&lt;br&gt;&lt;/b&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;NVIDIA GPUs&lt;br&gt;with CUDA&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" vertex="1" parent="1">
-          <mxGeometry x="480" y="80" width="120" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="6pD-UOqGXuLdC1MG8zGI-8" value="&lt;b&gt;BladeBit CUDA&lt;br&gt;&lt;/b&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;8GB NVIDIA GPUs&lt;br&gt;with CUDA&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" vertex="1" parent="1">
+        <mxCell id="6pD-UOqGXuLdC1MG8zGI-4" value="&lt;b&gt;BladeBit (Disk)&lt;br&gt;&lt;/b&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;&lt;br&gt;12GB RAM&lt;br&gt;480GB HDD/SSD&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" parent="1" vertex="1">
           <mxGeometry x="320" y="80" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="6pD-UOqGXuLdC1MG8zGI-13" value="Chia" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="215" y="40" width="50" height="30" as="geometry" />
+        <mxCell id="6pD-UOqGXuLdC1MG8zGI-8" value="&lt;b&gt;BladeBit (CUDA)&lt;br&gt;&lt;/b&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;&lt;br&gt;8GB NVIDIA GPUs&lt;br&gt;with CUDA&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" parent="1" vertex="1">
+          <mxGeometry x="460" y="80" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="6pD-UOqGXuLdC1MG8zGI-14" value="madMAx" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="500" y="40" width="70" height="30" as="geometry" />
+        <mxCell id="6pD-UOqGXuLdC1MG8zGI-13" value="Chia" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="280" y="40" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6pD-UOqGXuLdC1MG8zGI-14" value="madMAx" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="715" y="40" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6pD-UOqGXuLdC1MG8zGI-7" value="&lt;b&gt;madMAx plotter&lt;br&gt;&lt;/b&gt;&lt;br&gt;&lt;br&gt;–" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" parent="1" vertex="1">
+          <mxGeometry x="620" y="80" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Y9Uxz3rksekgHb4aTjNj-3" value="&lt;b&gt;Gigahorse&lt;br&gt;&lt;/b&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;&lt;br&gt;NVIDIA GPUs&lt;br&gt;with CUDA&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" parent="1" vertex="1">
+          <mxGeometry x="760" y="80" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="k4j2zcKyBlNlbZhaptiu-1" value="&lt;b&gt;Proof of Space&lt;br&gt;&lt;/b&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;&lt;br&gt;&lt;br&gt;–&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" vertex="1" parent="1">
+          <mxGeometry x="40" y="80" width="120" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

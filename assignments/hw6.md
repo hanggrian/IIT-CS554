@@ -33,7 +33,7 @@ conventional manner such as integer indices and unique strings no longer
 suffice. Growing complexity and precision usually resolve to slower create,
 read, update, and delete (CRUD) execution time. With many advancements that
 popular database vendors the likes of *MongoDB* and *InfluxDB*, they are yet to
-achieve $O(1)$ time when the sample size is worth decades of data.<sup>[\[1\]]</sup><sup>[\[2\]]</sup>
+achieve $O(1)$ time when the sample size is worth decades of data.
 
 XStore is a storage framework that centers around using chronological value as
 the mapping key. They are then classified by year and organized within the
@@ -57,7 +57,11 @@ feed the data to the client via the [ZeroMQ](https://zeromq.org/) protocol.
 
 MongoDB supports using chronology as an identifier of documents out-of-the-box,
 at least to a certain degree. See, in MongoDB, each document is normally backed
-by a helper file inaccessible to end users.
+by a helper file inaccessible to end users.<sup>[\[1\]]</sup>
+
+As a *Relational Database Management System (RDBMS)*, InfluxDB also supports a
+time-scale storage system. However, comparing against it would not be a fair
+challenge as XStore is only intended for NoSQL.<sup>[\[2\]]</sup>
 
 ## Problem 5
 
