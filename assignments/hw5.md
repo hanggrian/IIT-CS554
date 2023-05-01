@@ -26,7 +26,7 @@ Aumasson, J. P., O'Connor, J., Neves, S., Wilcox-O'Hearn, Z. (2021). <i>BLAKE3: 
   implementation of a real system, simulation, theoretical, empirical
   performance evaluation, survey, etc).
 
-Cryptographic hashing &ndash; not to be confused with encrypting &ndash; is a
+Cryptographic hashing &mdash; not to be confused with encrypting &mdash; is a
 one-way ciphering of digital information (mostly texts) through various
 techniques. Hash functions are expected to produce the same results while still
 being collision resistance, that is, it should be next to impossible to find 2
@@ -132,8 +132,8 @@ properly documented.
 
 As a future work, the paper could discuss the current phenomenon of hashing
 algorithms: we keep relying on increased digest size to avoid a collision.<sup>[\[10\]]</sup>
-Pretty soon when this strategy stops working &ndash; for example, when quantum
-computing becomes mainstream &ndash; the whole foundation of hash function
+Pretty soon when this strategy stops working &mdash; for example, when quantum
+computing becomes mainstream &mdash; the whole foundation of hash function
 security is at risk of dramatically changing. But to be completely fair to the
 authors, this topic is inherently related to the universal hash function instead
 of singling out BLAKE.

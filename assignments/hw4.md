@@ -28,8 +28,8 @@ Dongarra, J. J., Luszczek, P., & Petitet, A. (2003). <i>The LINPACK Benchmark: P
 A supercomputer is described as a cluster of interconnected computers with
 state-of-the-art performance far surpassing the level of general-purpose
 consumer PCs or even enterprise-grade servers.<sup>[\[4\]]</sup> This extreme
-speed &ndash; usually measured in floating-point operations per second (FLOPS)
-&ndash; is traditionally reserved for intensive workloads in highly specific
+speed &mdash; usually measured in floating-point operations per second (FLOPS)
+&mdash; is traditionally reserved for intensive workloads in highly specific
 areas like scientific modeling and physics simulation. Most notably and
 recently, the supercomputer has been able to break the petaFLOPS barrier in the
 21st century, news well received by the parallel computing community.

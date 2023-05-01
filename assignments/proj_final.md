@@ -1,114 +1,358 @@
-# [Project](https://github.com/hendraanggrian/IIT-CS554/blob/assets/assignments/prof_final.pdf): Plot compression in *Chia* blockchain
+<!-- hotfix: KaTeX -->
+<!-- https://github.com/yzane/vscode-markdown-pdf/issues/21/ -->
+<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+<script type="text/x-mathjax-config">MathJax.Hub.Config({ tex2jax: { inlineMath: [['$', '$']] }, messageStyle: 'none' });</script>
 
-### *Abstract*
+::: title
+Plot compression in *Chia* blockchain
+:::
 
-## Introduction
+::: authors
+Diego Escondrillas<br>A20528684<br>*Illinois Institute of Technology*<br>descondrillas@hawk.iit.edu
+
+Hendra Anggrianto Wijaya<br>A20529195<br>*Illinois Institute of Technology*<br>hwijaya@hawk.iit.edu
+:::
+
+::: content
+**_Abstract_&mdash;With efficiency at the center of Chia's philosophy, several
+strategies have come to light to further maximize this earth-friendly attribute.
+One of the most anticipated and coincidentally recent approaches is plot
+compression, that is, boosting plotting's performance and/or required space
+accommodated by specific hardware. In this paper, we traverse the adaptability
+of BladeBit, the official yet optional plotter by Chia that incorporates
+compression techniques. The alternate plotter from *madMAx* is also included in
+the research as collateral.**
+
+**_Index Terms_&mdash;Chia blockchain, plot compression, BladeBit disk**
+
+## I. Introduction
 
 Since its inception in 2008, Bitcoin &mdash; and in turn, the cryptocurrency
 movement &mdash; has amassed millions of users across the globe. This trend has
 exponentially raised the value of digital coins while emitting massive amounts
 of pollution in the process, and it shows no sign of slowing down. Much of the
 power hogging is attributed to the consensus model of the blockchain, it
-verifies transactions and dictates how new coins are generated.<sup>[\[2\]]</sup>
+verifies transactions and dictates how new coins are generated.\[1]
 
 In a conventional cryptocurrency, such as Bitcoin and Litecoin, proof-of-work
 remains the de-facto protocol. Proof-of-work operates by giving the participants
 sets of complex mathematical questions that require extreme precision and lots
 of computing power. By constantly competing for the fastest and accurate answer,
 the system has proved that it is statistically improbable (or financially
-unappealing) for a bad actor to manipulate or recreate the blockchain.
+unappealing) for a bad actor to manipulate or recreate the blockchain.\[2]
 
-### The downfall of proof-of-work
+### A. The downfall of proof-of-work
 
 For a proof-of-work mechanism to stay robust in a growing market, it would
 require a propotional amount of energy and electricity bills. In 2022, it has
 reached a point where the global electricity usage of cryptocurrencies has
 surpassed the total annual electricity of countries such as Argentina or
 Australia. With the increasing popularity of digital assets, the power needed to
-run them is expected to exceed the entire traditional servers around the world.<sup>[\[6\]]</sup>
+run them is expected to exceed the entire traditional servers around the world.\[5]
 
 With Bitcoin's heightening power consumption, it is inevitable that other and
 often overlooked consensus models are on the rise. For example, proof-of-stake
 first appeared as a hybrid implementation in a cryptocurrency now known as
-*Peercoin*.<sup>[\[3\]]</sup> It only gained acknowledgment after *Ethereum*
-fully utilized it in the long-awaited merge. Instead of solving arithmetic
-problems, proof-of-stake relies on a voting arrangement where members with
-higher stakes have a better chance of winning. It effectively eliminates small
-players such as home miners from the competition as they are unable to match the
-initial offerings of big organizations.<sup>[\[7\]]</sup>
+*Peercoin*.\[3] It only gained acknowledgment after *Ethereum* fully utilized it
+in the long-awaited merge. Instead of solving arithmetic problems,
+proof-of-stake relies on a voting arrangement where members with higher stakes
+have a better chance of winning. It effectively eliminates small players such as
+home miners from the competition as they are unable to match the initial
+offerings of big organizations.\[6] Additionally, some PoS systems also take into
+account the length of time that a stake has been held. Validators who have held
+their stake for a longer period of time may have a greater chance of being
+chosen to create the next block, as this rewards long-term participation in the
+network.
 
-## Overview of Chia
+### B. Overview of Chia
 
 This led us to proof-of-space, a protocol of choice by Chia. Unlike the stakes
 system, every attempt to participate in proof-of-space is connected to a
-real-world object, which in this case, is storage.<sup>[\[8\]]</sup> This
-property is inherently similar to proof-of-work, trading computing power for
-storage. However, storage is deemed inexpensive, with prices continuing to
-plummet.<sup>[\[9\]]</sup>
+real-world object, which in this case, is storage.\[7] This property is
+inherently similar to proof-of-work, trading computing power for storage.
+However, storage is deemed inexpensive, with prices continuing to plummet.\[8]
 
-## Compression strategy
+Therefore, it can be said that Chia's Proof of Space is designed to be more
+accessible than Bitcoin's Proof of Work because it does not require specialized
+hardware such as ASICs or GPUs to mine. Instead, it leverages unused storage
+space on a user's hard drive to generate new blocks and validate transactions.
+This means that almost anyone with a computer and some free hard drive space can
+participate in Chia farming, which is the process of generating new blocks and
+earning rewards in Chia cryptocurrency. In contrast, Bitcoin's Proof of Work
+requires powerful computing hardware and high electricity costs, making it less
+accessible to the median users.
+
+Regarding Chia, this network adds a "time" component to the proof-of-space
+consensus mechanism. This aspect refers to the requirement that the solutions to
+cryptographic puzzles (generated by the Proof of Space component) must also
+satisfy a certain time condition. This means that a valid solution to the puzzle
+must take a certain amount of time to compute. In order to guarantee this time
+component, Chia uses a Verifiable Delay Function (VDF). The key feature of a VDF
+is that it takes a certain amount of time to compute the output, even if the
+input value is known.
+
+By using a VDF in the plotting process, Chia can ensure that plotting takes a
+specific amount of time, regardless of the amount of computational power used.
+This helps to prevent centralized mining operations from dominating the network,
+and makes it more accessible to individual users with standard computing
+equipment.
+
+## II. Proposed solution
 
 It is important to establish fundamentals about the type and extent of
 compression before continuing further into advanced topics. First, there is a
 lossless compression, that is, removed parts of the content do not affect the
 desired result. For obvious reasons, this is a favored compression method that
-has thus far been incorporated in Chia plots and activated by default.<sup>[\[10\]]</sup>
+has thus far been incorporated in Chia plots and activated by default.\[9]
 
 The other compression type, lossy compression, allows direct manipulation of the
 result, to the extent that is agreed upon by the user, to maximize space saving.
 In this paper, we explore various methods of lossy compression that are recently
 introduced in the Chia ecosystem, either officially or third-party by the
-community.
+community. Listed below are the compression strategies available now.
 
-### Use GPU
+### A. Use GPU
 
 Compression with a dedicated graphics card, though still in an experimental
 phase, is already the fastest compression technique as the raw speed and memory
 capacity of modern GPUs are currently in exponential growth. GPU also costs less
 correlative to CPU while generating comparatively additional power. It is even
 reported that GPUs with certain raw performance can expect bottlenecks with PCIe
-or memory bandwidth.<sup>[\[11\]]</sup>
+or memory bandwidth.\[10]
 
 GPU plotting is initially supported in a community project known as Chia
-Gigahorse by prominent member *madMAx*. Not long after, Chia chimes in with its
+*Gigahorse* by prominent member madMAx. Not long after, Chia chimes in with its
 official implementation called *BladeBit*. Unfortunately in its current state,
 compressing plots using GPU relies heavily on *CUDA* technology invented by
 *NVIDIA*, thus hardware support is limited to the brand. And though support for
 more GPU vendors is logged in the roadmap, there is no word on when it would be
 available or its task priority within the team.
 
-### Use RAM or storage
+### B. Use RAM or storage
 
 Lossy compression can alternatively be achieved with extra memory or storage.
 This is a more accessible approach not only because both are cheaper than GPU,
 but there is also no hardware constraint.
 
-## Findings
+## III. Evaluation
 
-## Conclusion
+To appropriately measure how well a plot process is doing, it is crucial to
+understand what that process undertakes. Each plot can be identified to have 4
+phases regardless of the distinct implementation of various plotters. In this
+section, we try to interpret what each phase does to our best understanding.
 
-## References
+### A. Phase 1: Forward-progragation
 
-1. [Cohen, B., & Pietrzak, K. (2019). *The chia network blockchain*. vol, 1, 1-44.](https://www.chivescoin.org/wp-content/uploads/2021/10/ChiaGreenPaper.pdf)
-2. [Vranken, H. (2017). *Sustainability of bitcoin and blockchains*. Current opinion in environmental sustainability, 28, 1-9.](https://shop.tarjomeplus.com/UploadFileEn/TPLUS_EN_3047.pdf)
-3. [King, S., & Nadal, S. (2012). *Ppcoin: Peer-to-peer crypto-currency with proof-of-stake*. self-published paper, August, 19(1).](https://www.peercoin.net/read/papers/peercoin-paper.pdf)
-4. []()
-5. []()
-6. [The White House: FACT SHEET: Climate and Energy Implications of Crypto-Assets in the United States](https://www.whitehouse.gov/ostp/news-updates/2022/09/08/fact-sheet-climate-and-energy-implications-of-crypto-assets-in-the-united-states/)
-7. [Ethereum: The Merge](https://ethereum.org/en/roadmap/merge/)
-8. [Spacemesh: Proof of Stake vs Proof of Space Time](https://spacemesh.io/blog/proof-of-stake-vs-proof-of-space-time/)
-9. [Tom's Hardware: How Low Can SSD Prices Go? TrendForce Expects NAND Price Decline to Continue](https://www.tomshardware.com/news/trendforce-expects-nand-flash-prices-to-continue-falling/)
-10. [Chia News: Plotting Chia's Future](https://www.chia.net/2023/01/20/plotting-chias-future/)
-11. [Chia News: GPU Plotting is Real – and Very Fast](https://www.chia.net/2023/01/20/gpu-plotting-is-real---and-very-fast/)
+![Figure 1.1 &ndash; Phase 1: Temporary and final file layout](https://github.com/hendraanggrian/IIT-CS554/raw/assets/bladebit-research/phase1.png)
 
-[\[1\]]: https://www.chivescoin.org/wp-content/uploads/2021/10/ChiaGreenPaper.pdf
-[\[2\]]: https://shop.tarjomeplus.com/UploadFileEn/TPLUS_EN_3047.pdf
-[\[3\]]: https://www.peercoin.net/read/papers/peercoin-paper.pdf
-[\[4\]]:
-[\[5\]]:
-[\[6\]]: https://www.whitehouse.gov/ostp/news-updates/2022/09/08/fact-sheet-climate-and-energy-implications-of-crypto-assets-in-the-united-states/
-[\[7\]]: https://ethereum.org/en/roadmap/merge/
-[\[8\]]: https://spacemesh.io/blog/proof-of-stake-vs-proof-of-space-time/
-[\[9\]]: https://www.tomshardware.com/news/trendforce-expects-nand-flash-prices-to-continue-falling/
-[\[10\]]: https://www.chia.net/2023/01/20/plotting-chias-future/
-[\[11\]]: https://www.chia.net/2023/01/20/gpu-plotting-is-real---and-very-fast/
+<small>Figure 1.1 &ndash; Phase 1: Temporary and final file layout</small>
+
+Upon plot creation, Chia spawns a `chia` process that generates cryptographic
+hashes starting with a seed value. The plotter first generates a table of random
+numbers, which is used to determine the locations of the hashes to be computed.
+It also creates and locks the final plot file.
+
+### B. Phase 2: Back-progragation
+
+![Figure 1.2 &ndash; Phase 2: Table illustration within temporary files](https://github.com/hendraanggrian/IIT-CS554/raw/assets/bladebit-research/phase2.png)
+
+<small>Figure 1.2 &ndash; Phase 2: Table illustration within temporary files</small>
+
+The plotter then scans the plot file generated in Phase 1 and re-arranges the
+data in a way that is more optimized for reading. This involves grouping the
+data into buckets and then sorting each bucket. The resulting data is written to
+a temporary file.
+
+### C. Phase 3: Compression
+
+![Figure 1.3 &ndash; Phase 3: Migrating to double-pointers](https://github.com/hendraanggrian/IIT-CS554/raw/assets/bladebit-research/phase3.png)
+
+<small>Figure 1.3 &ndash; Phase 3: Migrating to double-pointers</small>
+
+Chia compresses the data generated in phases 2 using a compression algorithm
+called *Zstd* to reduce the size of the final plot. This process involves
+removing duplicate data and optimizing the remaining data for storage
+efficiency. As we have explained before, this would be the lossless compression
+that Chia does by default, and it has the purpose of making the data easier to
+transfer over the network.\[11]
+
+### D. Phase 4: Completion
+
+![Figure 1.4 &ndash; Phase 4: Writing final file](https://github.com/hendraanggrian/IIT-CS554/raw/assets/bladebit-research/phase4.png)
+
+<small>Figure 1.4 &ndash; Phase 4: Writing final file</small>
+
+The final phase consists of bucket sorting and writing the compressed data to
+the final plot file while emptying the temporary directory. This sorting is
+preferably conducted on RAM, and during our experiment 32GB is usually enough
+for k32 size. Failing this crucial hardware requirement, the sorting would then
+resort to persistently on disk, which varies by implementation but is most
+definitely slower than RAM.
+
+In the background, the process also generates a proof file which essentially is
+a guarantee that the plot data was correctly generated. The proof file is used
+by the Chia blockchain to verify that a farmer has a valid plot file. Once the
+final plot file and proof file are generated, the plotting process is complete
+and the farmer can start farming Chia.
+
+## IV. Findings
+
+| System requirement | Minimum | Recommended | Testbed |
+| --- | --- | --- | --- |
+| CPU | 4 cores | 8 cores | 6 cores |
+| RAM | 16GB | 32GB | 32GB |
+| Boot drive | SSD SATA | SSD NVMe | SSD NVMe |
+| Temporary directory | &ndash; | HDD 8TB | HDD 4TB |
+| Final directory | HDD | SSD | HHD |
+
+**Detailed specifications**: *Gigabyte* B460M Aorus Pro, *Intel* Core i5-10400,
+*AMD* Sapphire Pulse RX 580 8GB, *Corsair* Vengeance LPX DDR4 2666MHz 4x8GB,
+*Samsung* 970 EVO NVMe M.2 250GB, *Toshiba* X300 3.5 HDD 4TB,
+*Apple* macOS Ventura 13.3.1
+
+We propose test results from our testbed which ranks between the minimum and
+recommended system requirements Chia has posted in their official documentation.
+This commodity hardware will be tested against 3 plotters:
+
+- **pos** &ndash; *Chia Proof of Space 1.0.11*: The default plotter.
+- **bb** &ndash; *BladeBit Plotter 2.0.1 (Disk plot)*: The optional plotter
+  managed by Chia.
+- **mm** &ndash; *madMAx Plotter (1.1.6-2092041)*: The alternate plotter
+  managed by the community.
+
+![Figure 2.1 &ndash; k25 plotting time](https://github.com/hendraanggrian/IIT-CS554/raw/assets/bladebit-research/finding1.png)
+
+<small>Figure 2.1 &ndash; k25 plotting time</small>
+
+Unsurprisingly, k25 plotters are finished within minutes of conception. Plot
+size k25 generates too less cryptographic hashes to be considered secure for
+general use. Due to this characteristic, the mainnet no longer permits plot
+sizes under k32 since 2021 and is confirmed to stand until the end of 2023.\[12]
+It is a 2-level upgrade from the k30 agreement first set in 2020.
+
+![Figure 2.2 &ndash; k32 plotting time](https://github.com/hendraanggrian/IIT-CS554/raw/assets/bladebit-research/finding2.png)
+
+<small>Figure 2.2 &ndash; k32 plotting time</small>
+
+k32 plot size is the most popular, minimum requirement of the mainnet network
+and the BladeBit plotters. The plotters average around 13 hours of completion,
+although expansive, is still within range of what is acceptable according to
+available reports. What was an unforeseen discovery for us is the alternate
+plotter from madMAx, despite being wildly popular, needs additional 3 hours to
+accomplish than the default plotter.
+
+Regrettably, multiple attempts to finalize the BladeBit disk plotter test all
+fail due to indistinguishable errors during Phase 2. As we navigate through
+experimental builds of BladeBit, it is clear to us that our case is not
+isolated.\[13]
+
+![Figure 2.3 &ndash; Average by k-size](https://github.com/hendraanggrian/IIT-CS554/raw/assets/bladebit-research/finding3.png)
+
+<small>Figure 2.3 &ndash; Average by k-size</small>
+
+Our final graph indicates the average time needed for each k-size. Given the k25
+and k32 elapsed plotting time, we estimate 2.17 times increase for every k-level
+increment.
+
+$$
+\begin{array}{rcl}
+  0.06 . n^{32-25} &=& 13.96 \\\\
+  n^{7} &=& 232.67 \\\\
+  n &=& 2.17
+\end{array}
+$$
+
+## V. Related work
+
+The possibility of compressing plots was initially accepted by Chia in
+January 2023. By February, unofficial development builds by madMAx had recorded
+plots with this capability. Chia has finally entered the field by releasing
+BladeBit in March as an optional plot. All this progression happen quite
+recently, thus we are unable to find related work regarding this topic.
+
+However, the whole concept can be traced back to a 2008 study to compress
+Bitcoin's node by a group of Indonesian researchers.\[4] Nevertheless citing
+their work in ours would be futile as they are inherently different by consensus
+model.
+
+## VI. Conclusion
+
+Our tests prove that the BladeBit disk plotter is unusable in its current state.
+The process seems to always fail in Phase 2 and we have been able to identify
+this problem on all versions dating back to version 2.0.0 based on official Git
+issue trackers under the control of Chia. However, while studying how each
+plotting phase operates, we have concluded that the time required to complete
+Phase 3 is identical to Phase 1. This leaves us with Phase 4, the fastest
+recorded phase consistently finishing under an hour in k32 size provided that
+the system's RAM is sufficient.
+
+Using this knowledge, albeit inconclusive, we can theorize that commodity
+hardware can expect approximately 1-2 hours of saving with k32 size when using
+the BladeBit disk plotter. Out of the expected 12.5 hours needed to complete
+using our commodity hardware, this saving amounts to about 10-15%.
+
+As a bonus of the research we also take a quick look at an alternate plotter by
+madMAx. Unfortunately, it can be inferred that madMAx plotter performs worse
+than the default Chia Proof of Space plotter, averaging 52% slowdown in k25 and
+23% in k32. When compared to a more formidable yet deficient BladeBit disk
+plotter, the time elapsed of madMAx's alternate plotter is even worse at 35-45%.
+
+### A. Reflection
+
+There are several ways we can evaluate and dictate whether or not this research
+is a success. Sadly, it is a failure if we measure by the produced data because
+BladeBit has unexpectedly misbehaved. Nonetheless, our study of general and
+alternate plots still stands.
+
+### B. Future Work
+
+![Figure 3 &ndash; Future work](https://github.com/hendraanggrian/IIT-CS554/raw/assets/bladebit-research/types.png)
+
+<small>Figure 3 &ndash; Future work</small>
+
+The tests listed in the finding section are performed solely on disk. With such
+a perspective, future explorations could leverage other parts of hardware namely
+RAM and GPU, both of which are foreseen to exceed the achievement of any
+persistent disk. Woefully, some of them have demands that are unrealistic for
+most desktop builds, look no further than the BladeBit RAM plotter with
+approximately 400GB of RAM pre-requisite. A note regarding GPU, madMAx has also
+released his implementation of GPU plotting called Gigahorse.
+
+## VII. Acknowledgement
+
+Aside from the hands-on experience this research has provided us as active
+students, it also serves as our gateway to learning blockchain and
+proof-of-space mechanisms. We thank our lecturers Mr. Ioan Raicu and Mr.
+Alexandru Iulian Orhean for the opportunity.
+
+## VIII. References
+
+::: references
+1. Cohen, B., & Pietrzak, K. (2019). *The chia network blockchain*. vol, 1, 1-44.
+2. Vranken, H. (2017). *Sustainability of bitcoin and blockchains*. Current opinion in environmental sustainability, 28, 1-9.
+3. King, S., & Nadal, S. (2012). *Ppcoin: Peer-to-peer crypto-currency with proof-of-stake*. self-published paper, August, 19(1).
+4. Nadiya, U., Mutijarsa, K., & Rizqi, C. Y. (2018, October). *Block summarization and compression in bitcoin blockchain*. In 2018 International Symposium on Electronics and Smart Devices (ISESD) (pp. 1-4). IEEE.
+5. The White House: FACT SHEET: Climate and Energy Implications of Crypto-Assets in the United States
+6. Ethereum: The Merge
+7. Spacemesh: Proof of Stake vs Proof of Space Time
+8. Tom's Hardware: How Low Can SSD Prices Go? TrendForce Expects NAND Price Decline to Continue
+9. Chia News: Plotting Chia's Future
+10. Chia News: GPU Plotting is Real – and Very Fast
+11. Chia Resources: Proof of Space Construction
+12. Chia Wiki: k sizes
+13. Chia Issues: Still crashing at "Sorting F7 and writing C tables" despite Fix 251
+:::
+
+[1]: https://www.chivescoin.org/wp-content/uploads/2021/10/ChiaGreenPaper.pdf
+[2]: https://shop.tarjomeplus.com/UploadFileEn/TPLUS_EN_3047.pdf
+[3]: https://www.peercoin.net/read/papers/peercoin-paper.pdf
+[4]: https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8605487
+[5]: https://www.whitehouse.gov/ostp/news-updates/2022/09/08/fact-sheet-climate-and-energy-implications-of-crypto-assets-in-the-united-states/
+[6]: https://ethereum.org/en/roadmap/merge/
+[7]: https://spacemesh.io/blog/proof-of-stake-vs-proof-of-space-time/
+[8]: https://www.tomshardware.com/news/trendforce-expects-nand-flash-prices-to-continue-falling/
+[9]: https://www.chia.net/2023/01/20/plotting-chias-future/
+[10]: https://www.chia.net/2023/01/20/gpu-plotting-is-real---and-very-fast/
+[11]: https://www.chia.net/wp-content/uploads/2023/01/proof_of_space.pdf
+[12]: https://github.com/Chia-Network/chia-blockchain/wiki/k-sizes/
+[13]: https://github.com/Chia-Network/bladebit/issues/258/
