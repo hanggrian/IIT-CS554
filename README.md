@@ -11,4 +11,4 @@ Spring 2023.
 
 ## Related repositories
 
-- PDF files generated with [markdown-pdf-styles](https://github.com/hendraanggrian/markdown-pdf-styles/)
+- PDF files generated with [Markdown PDF Styles](https://github.com/hendraanggrian/markdown-pdf-styles/).

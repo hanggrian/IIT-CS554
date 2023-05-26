@@ -1,4 +1,4 @@
-# [Project Presentation](https://github.com/hendraanggrian/IIT-CS554/blob/assets/assignments/proj_presentation.pdf): Plot compression in *Chia* blockchain
+# [Project presentation](https://github.com/hendraanggrian/IIT-CS554/blob/assets/assignments/proj_presentation.pdf): Plot compression in *Chia* blockchain
 
 Phases: https://www.chia.net/wp-content/uploads/2023/01/proof_of_space.pdf
 
@@ -10,21 +10,31 @@ Phases: https://www.chia.net/wp-content/uploads/2023/01/proof_of_space.pdf
 
 ![Slide 2](https://github.com/hendraanggrian/IIT-CS554/raw/assets/bladebit-research/slide2.png)
 
+> Partner's part.
+
 ## Introduction 2
 
 ![Slide 3](https://github.com/hendraanggrian/IIT-CS554/raw/assets/bladebit-research/slide3.png)
+
+> Partner's part.
 
 ## Introduction 3
 
 ![Slide 4](https://github.com/hendraanggrian/IIT-CS554/raw/assets/bladebit-research/slide4.png)
 
+> Partner's part.
+
 ## Background
 
 ![Slide 5](https://github.com/hendraanggrian/IIT-CS554/raw/assets/bladebit-research/slide5.png)
 
+> Partner's part.
+
 ## Motivation
 
 ![Slide 6](https://github.com/hendraanggrian/IIT-CS554/raw/assets/bladebit-research/slide6.png)
+
+> Partner's part.
 
 ## Proposed Solution
 
@@ -92,9 +102,13 @@ Phases: https://www.chia.net/wp-content/uploads/2023/01/proof_of_space.pdf
 
 ![Slide 13](https://github.com/hendraanggrian/IIT-CS554/raw/assets/bladebit-research/slide13.png)
 
+> Partner's part.
+
 ## Conclusion 1
 
 ![Slide 14](https://github.com/hendraanggrian/IIT-CS554/raw/assets/bladebit-research/slide14.png)
+
+> Partner's part.
 
 ## Conclusion 2
 

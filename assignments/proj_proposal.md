@@ -1,4 +1,4 @@
-# [Project Proposal](https://github.com/hendraanggrian/IIT-CS554/blob/assets/assignments/proj.pdf): Plot compression in *Chia* blockchain
+# [Project proposal](https://github.com/hendraanggrian/IIT-CS554/blob/assets/assignments/proj.pdf): Plot compression in *Chia* blockchain
 
 ### *Abstract*
 

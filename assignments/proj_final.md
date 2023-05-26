@@ -41,7 +41,7 @@ of computing power. By constantly competing for the fastest and accurate answer,
 the system has proved that it is statistically improbable (or financially
 unappealing) for a bad actor to manipulate or recreate the blockchain.\[2]
 
-### A. The downfall of proof-of-work
+### A. The Downfall of Proof-of-work
 
 For a proof-of-work mechanism to stay robust in a growing market, it would
 require a propotional amount of energy and electricity bills. In 2022, it has
@@ -97,7 +97,7 @@ This helps to prevent centralized mining operations from dominating the network,
 and makes it more accessible to individual users with standard computing
 equipment.
 
-## II. Proposed solution
+## II. Proposed Solution
 
 It is important to establish fundamentals about the type and extent of
 compression before continuing further into advanced topics. First, there is a
@@ -128,7 +128,7 @@ compressing plots using GPU relies heavily on *CUDA* technology invented by
 more GPU vendors is logged in the roadmap, there is no word on when it would be
 available or its task priority within the team.
 
-### B. Use RAM or storage
+### B. Use RAM or Storage
 
 Lossy compression can alternatively be achieved with extra memory or storage.
 This is a more accessible approach not only because both are cheaper than GPU,
@@ -262,7 +262,7 @@ $$
 \end{array}
 $$
 
-## V. Related work
+## V. Related Work
 
 The possibility of compressing plots was initially accepted by Chia in
 January 2023. By February, unofficial development builds by madMAx had recorded
