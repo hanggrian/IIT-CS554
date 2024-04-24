@@ -17,7 +17,9 @@
 Here's a citation block in APA format:
 
 <div style="font-family: 'Noto Serif'; text-align: right;">
-Aumasson, J. P., O'Connor, J., Neves, S., Wilcox-O'Hearn, Z. (2021). <i>BLAKE3: one function, fast everywhere</i>. https://github.com/BLAKE3-team/BLAKE3-specs/raw/master/blake3.pdf
+Aumasson, J. P., O'Connor, J., Neves, S., Wilcox-O'Hearn, Z. (2021). <i>BLAKE3:
+one function, fast everywhere</i>.
+https://github.com/BLAKE3-team/BLAKE3-specs/raw/master/blake3.pdf
 </div>
 
 ## Problem 2
@@ -140,16 +142,30 @@ of singling out BLAKE.
 
 ## References
 
-1. [Al-Kuwari, S., Davenport, J. H., & Bradford, R. J. (2011). *Cryptographic hash functions: Recent design trends and security notions*. Cryptology ePrint Archive.](https://eprint.iacr.org/2011/565.pdf)
-2. [Al Shaikhli, I., Alahmad, M., & Munthir, K. (2014). *Hash function of finalist SHA-3: Analysis study*. International Journal of Advanced Computer Science and Information Technology (IJACSIT) Vol, 2, 1-12.](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2376182)
-3. [Aumasson, J. P., Neves, S., Wilcox-O’Hearn, Z., & Winnerlein, C. (2013). *BLAKE2: simpler, smaller, fast as MD5*. In Applied Cryptography and Network Security: 11th International Conference, ACNS 2013, Banff, AB, Canada, June 25-28, 2013. Proceedings 11 (pp. 119-135). Springer Berlin Heidelberg.](https://eprint.iacr.org/2013/322.pdf)
-4. [Aumasson, J. P. (2019). *Too much crypto*. Cryptology ePrint Archive.](https://eprint.iacr.org/2019/1492.pdf)
-5. [Chang, S. J., Perlner, R., Burr, W. E., Turan, M. S., Kelsey, J. M., Paul, S., & Bassham, L. E. (2012). *Third-round report of the SHA-3 cryptographic hash algorithm competition*. NIST Interagency Report, 7896, 121.](https://nvlpubs.nist.gov/nistpubs/ir/2012/NIST.IR.7896.pdf)
-6. [Liskov, M., Rivest, R. L., & Wagner, D. (2002). *Tweakable block ciphers*. In Advances in Cryptology—CRYPTO 2002: 22nd Annual International Cryptology Conference Santa Barbara, California, USA, August 18–22, 2002 Proceedings 22 (pp. 31-46). Springer Berlin Heidelberg.](https://home.cs.colorado.edu/~jrblack/class/csci7000/f03/papers/tweak-crypto02.pdf)
-7. [NIST: NIST Selects Winner of Secure Hash Algorithm (SHA-3) Competition](https://www.nist.gov/news-events/news/2012/10/nist-selects-winner-secure-hash-algorithm-sha-3-competition/)
-8. [The Guardian: Passwords and hacking: the jargon of hashing, salting and SHA-2 explained](https://www.theguardian.com/technology/2016/dec/15/passwords-hacking-hashing-salting-sha-2/)
-9. [StackExchange Cryptography: What advantages does Keccak/SHA-3 have over BLAKE2?](https://crypto.stackexchange.com/questions/31674/what-advantages-does-keccak-sha-3-have-over-blake2/)
-10. [Medium: The State of Hashing Algorithms — The Why, The How, and The Future](https://medium.com/@rauljordan/the-state-of-hashing-algorithms-the-why-the-how-and-the-future-b21d5c0440de/)
+1.  [Al-Kuwari, S., Davenport, J. H., & Bradford, R. J. (2011). *Cryptographic
+    hash functions: Recent design trends and security notions*. Cryptology
+    ePrint Archive.](https://eprint.iacr.org/2011/565.pdf)
+1.  [Al Shaikhli, I., Alahmad, M., & Munthir, K. (2014). *Hash function of
+    finalist SHA-3: Analysis study*. International Journal of Advanced Computer
+    Science and Information Technology (IJACSIT) Vol, 2, 1-12.](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2376182)
+1.  [Aumasson, J. P., Neves, S., Wilcox-O’Hearn, Z., & Winnerlein, C. (2013).
+    *BLAKE2: simpler, smaller, fast as MD5*. In Applied Cryptography and Network
+    Security: 11th International Conference, ACNS 2013, Banff, AB, Canada, June
+    25-28, 2013. Proceedings 11 (pp. 119-135). Springer Berlin Heidelberg.](https://eprint.iacr.org/2013/322.pdf)
+1.  [Aumasson, J. P. (2019). *Too much crypto*. Cryptology ePrint Archive.](https://eprint.iacr.org/2019/1492.pdf)
+1.  [Chang, S. J., Perlner, R., Burr, W. E., Turan, M. S., Kelsey, J. M., Paul,
+    S., & Bassham, L. E. (2012). *Third-round report of the SHA-3 cryptographic
+    hash algorithm competition*. NIST Interagency Report, 7896, 121.](https://nvlpubs.nist.gov/nistpubs/ir/2012/NIST.IR.7896.pdf)
+1.  [Liskov, M., Rivest, R. L., & Wagner, D. (2002). *Tweakable block ciphers*.
+    In Advances in Cryptology—CRYPTO 2002: 22nd Annual International Cryptology
+    Conference Santa Barbara, California, USA, August 18–22, 2002 Proceedings 22
+    (pp. 31-46). Springer Berlin Heidelberg.](https://home.cs.colorado.edu/~jrblack/class/csci7000/f03/papers/tweak-crypto02.pdf)
+1.  [NIST: NIST Selects Winner of Secure Hash Algorithm (SHA-3) Competition](https://www.nist.gov/news-events/news/2012/10/nist-selects-winner-secure-hash-algorithm-sha-3-competition/)
+1.  [The Guardian: Passwords and hacking: the jargon of hashing, salting and
+    SHA-2 explained](https://www.theguardian.com/technology/2016/dec/15/passwords-hacking-hashing-salting-sha-2/)
+1.  [StackExchange Cryptography: What advantages does Keccak/SHA-3 have over
+    BLAKE2?](https://crypto.stackexchange.com/questions/31674/what-advantages-does-keccak-sha-3-have-over-blake2/)
+1.  [Medium: The State of Hashing Algorithms — The Why, The How, and The Future](https://medium.com/@rauljordan/the-state-of-hashing-algorithms-the-why-the-how-and-the-future-b21d5c0440de/)
 
 [\[1\]]: https://eprint.iacr.org/2011/565.pdf
 [\[2\]]: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2376182

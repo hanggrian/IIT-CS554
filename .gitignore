@@ -1,0 +1,12 @@
+# macOS
+.DS_Store
+._*
+
+# PyCharm
+*.iml
+.idea/
+venv/
+__pycache__/
+
+# draw.io
+.$*.drawio*

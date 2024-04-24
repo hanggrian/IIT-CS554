@@ -143,9 +143,7 @@ section, we try to interpret what each phase does to our best understanding.
 
 ### A. Phase 1: Forward-progragation
 
-![Figure 1.1 &ndash; Phase 1: Temporary and final file layout](https://github.com/hendraanggrian/IIT-CS554/raw/assets/bladebit-research/phase1.png)
-
-<small>Figure 1.1 &ndash; Phase 1: Temporary and final file layout</small>
+![Figure 1.1 &ndash; Phase 1: Temporary and final file layout](https://github.com/hendraanggrian/IIT-CS554/raw/assets/bladebit/phase1.svg)<br><small>Figure 1.1 &ndash; Phase 1: Temporary and final file layout</small><br><br><br>
 
 Upon plot creation, Chia spawns a `chia` process that generates cryptographic
 hashes starting with a seed value. The plotter first generates a table of random
@@ -154,9 +152,7 @@ It also creates and locks the final plot file.
 
 ### B. Phase 2: Back-progragation
 
-![Figure 1.2 &ndash; Phase 2: Table illustration within temporary files](https://github.com/hendraanggrian/IIT-CS554/raw/assets/bladebit-research/phase2.png)
-
-<small>Figure 1.2 &ndash; Phase 2: Table illustration within temporary files</small>
+![Figure 1.2 &ndash; Phase 2: Table illustration within temporary files](https://github.com/hendraanggrian/IIT-CS554/raw/assets/bladebit/phase2.svg)<br><small>Figure 1.2 &ndash; Phase 2: Table illustration within temporary files</small><br><br><br>
 
 The plotter then scans the plot file generated in Phase 1 and re-arranges the
 data in a way that is more optimized for reading. This involves grouping the
@@ -165,9 +161,7 @@ a temporary file.
 
 ### C. Phase 3: Compression
 
-![Figure 1.3 &ndash; Phase 3: Migrating to double-pointers](https://github.com/hendraanggrian/IIT-CS554/raw/assets/bladebit-research/phase3.png)
-
-<small>Figure 1.3 &ndash; Phase 3: Migrating to double-pointers</small>
+![Figure 1.3 &ndash; Phase 3: Migrating to double-pointers](https://github.com/hendraanggrian/IIT-CS554/raw/assets/bladebit/phase3.svg)<br><small>Figure 1.3 &ndash; Phase 3: Migrating to double-pointers</small><br><br><br>
 
 Chia compresses the data generated in phases 2 using a compression algorithm
 called *Zstd* to reduce the size of the final plot. This process involves
@@ -178,9 +172,7 @@ transfer over the network.\[11]
 
 ### D. Phase 4: Completion
 
-![Figure 1.4 &ndash; Phase 4: Writing final file](https://github.com/hendraanggrian/IIT-CS554/raw/assets/bladebit-research/phase4.png)
-
-<small>Figure 1.4 &ndash; Phase 4: Writing final file</small>
+![Figure 1.4 &ndash; Phase 4: Writing final file](https://github.com/hendraanggrian/IIT-CS554/raw/assets/bladebit/phase4.svg)<br><small>Figure 1.4 &ndash; Phase 4: Writing final file</small><br><br><br>
 
 The final phase consists of bucket sorting and writing the compressed data to
 the final plot file while emptying the temporary directory. This sorting is
@@ -197,15 +189,15 @@ and the farmer can start farming Chia.
 
 ## IV. Findings
 
-| System requirement | Minimum | Recommended | Testbed |
-| --- | --- | --- | --- |
-| CPU | 4 cores | 8 cores | 6 cores |
-| RAM | 16GB | 32GB | 32GB |
-| Boot drive | SSD SATA | SSD NVMe | SSD NVMe |
-| Temporary directory | &ndash; | HDD 8TB | HDD 4TB |
-| Final directory | HDD | SSD | HHD |
+System requirement | Minimum | Recommended | Testbed
+--- | --- | --- | ---
+CPU | 4 cores | 8 cores | 6 cores
+RAM | 16GB | 32GB | 32GB
+Boot drive | SSD SATA | SSD NVMe | SSD NVMe
+Temporary directory | &ndash; | HDD 8TB | HDD 4TB
+Final directory | HDD | SSD | HHD
 
-**Detailed specifications**: *Gigabyte* B460M Aorus Pro, *Intel* Core i5-10400,
+**Detailed specifications:** *Gigabyte* B460M Aorus Pro, *Intel* Core i5-10400,
 *AMD* Sapphire Pulse RX 580 8GB, *Corsair* Vengeance LPX DDR4 2666MHz 4x8GB,
 *Samsung* 970 EVO NVMe M.2 250GB, *Toshiba* X300 3.5 HDD 4TB,
 *Apple* macOS Ventura 13.3.1
@@ -220,9 +212,7 @@ This commodity hardware will be tested against 3 plotters:
 - **mm** &ndash; *madMAx Plotter (1.1.6-2092041)*: The alternate plotter
   managed by the community.
 
-![Figure 2.1 &ndash; k25 plotting time](https://github.com/hendraanggrian/IIT-CS554/raw/assets/bladebit-research/finding1.png)
-
-<small>Figure 2.1 &ndash; k25 plotting time</small>
+![Figure 2.1 &ndash; k25 plotting time](https://github.com/hendraanggrian/IIT-CS554/raw/assets/bladebit/finding1.svg)<br><small>Figure 2.1 &ndash; k25 plotting time</small><br><br><br>
 
 Unsurprisingly, k25 plotters are finished within minutes of conception. Plot
 size k25 generates too less cryptographic hashes to be considered secure for
@@ -230,9 +220,7 @@ general use. Due to this characteristic, the mainnet no longer permits plot
 sizes under k32 since 2021 and is confirmed to stand until the end of 2023.\[12]
 It is a 2-level upgrade from the k30 agreement first set in 2020.
 
-![Figure 2.2 &ndash; k32 plotting time](https://github.com/hendraanggrian/IIT-CS554/raw/assets/bladebit-research/finding2.png)
-
-<small>Figure 2.2 &ndash; k32 plotting time</small>
+![Figure 2.2 &ndash; k32 plotting time](https://github.com/hendraanggrian/IIT-CS554/raw/assets/bladebit/finding2.svg)<br><small>Figure 2.2 &ndash; k32 plotting time</small><br><br><br>
 
 k32 plot size is the most popular, minimum requirement of the mainnet network
 and the BladeBit plotters. The plotters average around 13 hours of completion,
@@ -246,9 +234,7 @@ fail due to indistinguishable errors during Phase 2. As we navigate through
 experimental builds of BladeBit, it is clear to us that our case is not
 isolated.\[13]
 
-![Figure 2.3 &ndash; Average by k-size](https://github.com/hendraanggrian/IIT-CS554/raw/assets/bladebit-research/finding3.png)
-
-<small>Figure 2.3 &ndash; Average by k-size</small>
+![Figure 2.3 &ndash; Average by k-size](https://github.com/hendraanggrian/IIT-CS554/raw/assets/bladebit/finding3.svg)<br><small>Figure 2.3 &ndash; Average by k-size</small><br><br><br>
 
 Our final graph indicates the average time needed for each k-size. Given the k25
 and k32 elapsed plotting time, we estimate 2.17 times increase for every k-level
@@ -306,9 +292,7 @@ alternate plots still stands.
 
 ### B. Future Work
 
-![Figure 3 &ndash; Future work](https://github.com/hendraanggrian/IIT-CS554/raw/assets/bladebit-research/types.png)
-
-<small>Figure 3 &ndash; Future work</small>
+![Figure 3 &ndash; Future work](https://github.com/hendraanggrian/IIT-CS554/raw/assets/bladebit/types.svg)<br><small>Figure 3 &ndash; Future work</small><br><br><br>
 
 The tests listed in the finding section are performed solely on disk. With such
 a perspective, future explorations could leverage other parts of hardware namely
@@ -328,19 +312,27 @@ Alexandru Iulian Orhean for the opportunity.
 ## VIII. References
 
 ::: references
-1. Cohen, B., & Pietrzak, K. (2019). *The chia network blockchain*. vol, 1, 1-44.
-2. Vranken, H. (2017). *Sustainability of bitcoin and blockchains*. Current opinion in environmental sustainability, 28, 1-9.
-3. King, S., & Nadal, S. (2012). *Ppcoin: Peer-to-peer crypto-currency with proof-of-stake*. self-published paper, August, 19(1).
-4. Nadiya, U., Mutijarsa, K., & Rizqi, C. Y. (2018, October). *Block summarization and compression in bitcoin blockchain*. In 2018 International Symposium on Electronics and Smart Devices (ISESD) (pp. 1-4). IEEE.
-5. The White House: FACT SHEET: Climate and Energy Implications of Crypto-Assets in the United States
-6. Ethereum: The Merge
-7. Spacemesh: Proof of Stake vs Proof of Space Time
-8. Tom's Hardware: How Low Can SSD Prices Go? TrendForce Expects NAND Price Decline to Continue
-9. Chia News: Plotting Chia's Future
-10. Chia News: GPU Plotting is Real – and Very Fast
-11. Chia Resources: Proof of Space Construction
-12. Chia Wiki: k sizes
-13. Chia Issues: Still crashing at "Sorting F7 and writing C tables" despite Fix 251
+1.  Cohen, B., & Pietrzak, K. (2019). *The chia network blockchain*. vol, 1,
+    1-44.
+1.  Vranken, H. (2017). *Sustainability of bitcoin and blockchains*. Current
+    opinion in environmental sustainability, 28, 1-9.
+1.  King, S., & Nadal, S. (2012). *Ppcoin: Peer-to-peer crypto-currency with
+    proof-of-stake*. self-published paper, August, 19(1).
+1.  Nadiya, U., Mutijarsa, K., & Rizqi, C. Y. (2018, October). *Block
+    summarization and compression in bitcoin blockchain*. In 2018 International
+    Symposium on Electronics and Smart Devices (ISESD) (pp. 1-4). IEEE.
+1.  The White House: FACT SHEET: Climate and Energy Implications of
+    Crypto-Assets in the United States
+1.  Ethereum: The Merge
+1.  Spacemesh: Proof of Stake vs Proof of Space Time
+1.  Tom's Hardware: How Low Can SSD Prices Go? TrendForce Expects NAND Price
+    Decline to Continue
+1.  Chia News: Plotting Chia's Future
+1.  Chia News: GPU Plotting is Real – and Very Fast
+1.  Chia Resources: Proof of Space Construction
+1.  Chia Wiki: k sizes
+1.  Chia Issues: Still crashing at "Sorting F7 and writing C tables" despite Fix
+    251
 :::
 
 [1]: https://www.chivescoin.org/wp-content/uploads/2021/10/ChiaGreenPaper.pdf

@@ -69,12 +69,12 @@ accessible on workstations and servers.
 
 Starting at **March 24th, 2023**.
 
-| Week # | Deliverable |
-| ---: | --- |
-| 1 | Run tests on all compression levels. |
-| 2 | Explore the possibility of using GPU or RAM plotting. |
-| 3 | Prepare final report. |
-| **4** | **Final Presentation.** |
+Week # | Deliverable
+---: | ---
+1 | Run tests on all compression levels.
+2 | Explore the possibility of using GPU or RAM plotting.
+3 | Prepare final report.
+**4** | **Final Presentation.**
 
 ## Conclusions
 
@@ -86,12 +86,13 @@ considering performance, storage, and energy requirements.
 
 ## References
 
-1. [Agrawal, S. (2022, June 4). *Secure Plot Transfer for the Chia Blockchain*.](https://eprint.iacr.org/2022/871.pdf)
-2. [Cohen, B., Pietrzak, K., (2019, July 9). *The Chia Network Blockchain*. Chia Network. IST Austria.](https://www.chivescoin.org/wp-content/uploads/2021/10/ChiaGreenPaper.pdf)
-3. [Chia News: Plotting Chia's Future](https://www.chia.net/2023/01/20/plotting-chias-future/)
-4. [Chia News: Plot compression is here](https://www.chia.net/2023/01/20/plot-compression-is-here/)
-5. [Chia News: GPU Plotting is Real – and Very Fast](https://www.chia.net/2023/01/20/gpu-plotting-is-real---and-very-fast/)
-6. [Chia Forum: Few facts about "compressed plot"](https://chiaforum.com/t/few-facts-about-compressed-plot/18336/6/)
+1.  [Agrawal, S. (2022, June 4). *Secure Plot Transfer for the Chia Blockchain*.](https://eprint.iacr.org/2022/871.pdf)
+1.  [Cohen, B., Pietrzak, K., (2019, July 9). *The Chia Network Blockchain*.
+    Chia Network. IST Austria.](https://www.chivescoin.org/wp-content/uploads/2021/10/ChiaGreenPaper.pdf)
+1.  [Chia News: Plotting Chia's Future](https://www.chia.net/2023/01/20/plotting-chias-future/)
+1.  [Chia News: Plot compression is here](https://www.chia.net/2023/01/20/plot-compression-is-here/)
+1.  [Chia News: GPU Plotting is Real – and Very Fast](https://www.chia.net/2023/01/20/gpu-plotting-is-real---and-very-fast/)
+1.  [Chia Forum: Few facts about "compressed plot"](https://chiaforum.com/t/few-facts-about-compressed-plot/18336/6/)
 
 [\[1\]]: https://eprint.iacr.org/2022/871.pdf
 [\[2\]]: https://www.chivescoin.org/wp-content/uploads/2021/10/ChiaGreenPaper.pdf

@@ -19,7 +19,9 @@
 Here's a citation block in APA format:
 
 <div style="font-family: 'Noto Serif'; text-align: right;">
-Nguyen, L., Raicu, I., (2018). <i>XSearch: Distributed Information Retrieval in Large-Scale Storage Systems</i>. http://datasys.cs.iit.edu/publications/2018_IIT-oral-xsearch.pdf
+Nguyen, L., Raicu, I., (2018). <i>XSearch: Distributed Information Retrieval in
+Large-Scale Storage Systems</i>.
+http://datasys.cs.iit.edu/publications/2018_IIT-oral-xsearch.pdf
 </div>
 
 ## Problem 2
@@ -107,8 +109,9 @@ extreme lengths utilizing in-memory support in their MongoDB databases with
 
 ## References
 
-1. [(2021). *MongoDB Architecture Guide*. MongoDB, Inc.](http://s3.amazonaws.com/info-mongodb-com/MongoDB_Architecture_Guide.pdf)
-2. [Naqvi, S. N. Z., Yfantidou, S., & Zimányi, E. (2017). Time series databases and influxdb. Studienarbeit, Université Libre de Bruxelles, 12.](https://www.devopsschool.com/blog/wp-content/uploads/2022/09/influxdb_2017.pdf)
+1.  [(2021). *MongoDB Architecture Guide*. MongoDB, Inc.](http://s3.amazonaws.com/info-mongodb-com/MongoDB_Architecture_Guide.pdf)
+1.  [Naqvi, S. N. Z., Yfantidou, S., & Zimányi, E. (2017). Time series databases
+    and influxdb. Studienarbeit, Université Libre de Bruxelles, 12.](https://www.devopsschool.com/blog/wp-content/uploads/2022/09/influxdb_2017.pdf)
 
 [\[1\]]: http://s3.amazonaws.com/info-mongodb-com/MongoDB_Architecture_Guide.pdf
 [\[2\]]: https://www.devopsschool.com/blog/wp-content/uploads/2022/09/influxdb_2017.pdf

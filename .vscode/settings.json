@@ -1,7 +1,7 @@
 {
   "markdown-pdf.format": "Letter",
   "markdown-pdf.styles": [
-    "~/Documents/GitHub/markdown-pdf-styles/ieee.css",
+    "~/GitHub/markdown-pdf-styles/ieee.css",
   ],
   "markdown-pdf.margin.top": "0.75in",
   "markdown-pdf.margin.bottom": "1in",

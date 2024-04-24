@@ -16,7 +16,9 @@
 Here's a citation block in APA format:
 
 <div style="font-family: 'Noto Serif'; text-align: right;">
-Dongarra, J. J., Luszczek, P., & Petitet, A. (2003). <i>The LINPACK Benchmark: Past, present and future</i>. Concurrency and Computation: Practice and Experience. https://doi.org/10.1002/cpe.728
+Dongarra, J. J., Luszczek, P., & Petitet, A. (2003). <i>The LINPACK Benchmark:
+Past, present and future</i>. Concurrency and Computation: Practice and
+Experience. https://doi.org/10.1002/cpe.728
 </div>
 
 ## Problem 2
@@ -58,14 +60,14 @@ package.<sup>[\[6\]]</sup>
 
 > What are the core contributions of this paper (1~3 items)?
 
-1. **Started as a mathematical library**: LINPACK was first published as Fortran
-  executables calculating linear algebra problems. It drew inspiration from
-  another package called BLAS.
-2. **Established methodology of HPC benchmarking**: The analysis of theoretical
-  peak and efficiency rate is still the basis of benchmarking today.
-3. **Predicting the future of the benchmark**: The authors make an educated
-  guess of how the upcoming benchmark tool would look based on the trends of
-  that time.
+1.  **Started as a mathematical library:** LINPACK was first published as
+    Fortran executables calculating linear algebra problems. It drew inspiration
+    from another package called BLAS.
+1.  **Established methodology of HPC benchmarking:** The analysis of theoretical
+    peak and efficiency rate is still the basis of benchmarking today.
+1.  **Predicting the future of the benchmark:** The authors make an educated
+    guess of how the upcoming benchmark tool would look based on the trends of
+    that time.
 
 ## Problem 4
 
@@ -97,26 +99,26 @@ inspiration to the existing and future generations of benchmark tools to come.
 
 > Pros: Identify 3 things that this paper does well.
 
-1. **Historical context**: Gives insight into how LINPACK is first created by an
-  accident and stays a passion project.
-2. **Classifying variants**: There are 4 separate LINPACK benchmarks categorized
-  by matrix dimension and other optimizations. The authors understand that one
-  configuration cannot satisfy every requirement.
-3. **Naturally humble**: When describing its inclusion into the TOP500
-  Supercomputer list, the authors acknowledge that the importance of such honor
-  is diminishing.
+1.  **Historical context:** Gives insight into how LINPACK is first created by
+    an accident and stays a passion project.
+1.  **Classifying variants:** There are 4 separate LINPACK benchmarks
+    categorized by matrix dimension and other optimizations. The authors
+    understand that one configuration cannot satisfy every requirement.
+1.  **Naturally humble:** When describing its inclusion into the TOP500
+    Supercomputer list, the authors acknowledge that the importance of such
+    honor is diminishing.
 
 ## Problem 6
 
 > Cons: Identify 3 things that this paper could do better.
 
-1. **Incomplete tables**: Though there are 4 variants available, only
-  *LINPACK 100* is consistently being used as a test case.
-2. **Naive expectations**: It is apparent in the conclusion that the paper
-  expects Moore's Law would uphold in the foreseeable future.
-  This prediction would end up being wrong.
-3. **Not perfect as is**: For example, the paper has admitted that vector
-  operations are expected to experience hiccups in unconfigured HPC.
+1.  **Incomplete tables:** Though there are 4 variants available, only
+    *LINPACK 100* is consistently being used as a test case.
+1.  **Naive expectations:** It is apparent in the conclusion that the paper
+    expects Moore's Law would uphold in the foreseeable future.
+    This prediction would end up being wrong.
+1.  **Not perfect as is:** For example, the paper has admitted that vector
+    operations are expected to experience hiccups in unconfigured HPC.
 
 ## Problem 7
 
@@ -141,13 +143,20 @@ cost less (performance per dollar and watt) and may unlock new possibilities.<su
 
 ## References
 
-1. [Dongarra, J. J. (2005, May). *The LINPACK benchmark: An explanation*. In Supercomputing: 1st International Conference Athens, Greece, June 8–12, 1987 Proceedings (pp. 456-474). Berlin, Heidelberg: Springer Berlin Heidelberg.](https://link.springer.com/chapter/10.1007/3-540-18991-2_27/)
-2. [Heroux, M. A., & Dongarra, J. (2013). *Toward a new metric for ranking high performance computing systems (No. SAND2013-4744)*. Sandia National Lab.(SNL-NM), Albuquerque, NM (United States); University of Tennessee,, Knoxville, TN.](https://www.osti.gov/servlets/purl/1089988/)
-3. [None, N. (2016). *Performance, Efficiency, and Effectiveness of Supercomputers* (No. SAND2016-12782). Sandia National Lab.(SNL-NM), Albuquerque, NM (United States).](https://www.osti.gov/servlets/purl/1505370/)
-4. [ZDNET: The rise, fall, and rise of the supercomputer in the cloud era](https://www.zdnet.com/article/the-rise-fall-and-rise-of-the-supercomputer-in-the-cloud-era/)
-5. [ZDNET: NASA gets SGI 2048-core Itanium 2 supercomputer](https://www.zdnet.com/article/nasa-gets-sgi-2048-core-itanium-2-supercomputer/)
-6. [ZDNET: ​Supercomputers: All Linux, all the time](https://www.zdnet.com/article/supercomputers-all-linux-all-the-time/)
-7. [TheRegister: What should replace Linpack for ranking supercomputers?](https://www.theregister.com/2013/06/21/hpcg_supercomputing_benchmark_proposal/)
+1.  [Dongarra, J. J. (2005, May). *The LINPACK benchmark: An explanation*. In
+    Supercomputing: 1st International Conference Athens, Greece, June 8–12, 1987
+    Proceedings (pp. 456-474). Berlin, Heidelberg: Springer Berlin Heidelberg.](https://link.springer.com/chapter/10.1007/3-540-18991-2_27/)
+1.  [Heroux, M. A., & Dongarra, J. (2013). *Toward a new metric for ranking high
+    performance computing systems (No. SAND2013-4744)*. Sandia National
+    Lab.(SNL-NM), Albuquerque, NM (United States); University of Tennessee,,
+    Knoxville, TN.](https://www.osti.gov/servlets/purl/1089988/)
+1.  [None, N. (2016). *Performance, Efficiency, and Effectiveness of
+    Supercomputers* (No. SAND2016-12782). Sandia National Lab.(SNL-NM),
+    Albuquerque, NM (United States).](https://www.osti.gov/servlets/purl/1505370/)
+1.  [ZDNET: The rise, fall, and rise of the supercomputer in the cloud era](https://www.zdnet.com/article/the-rise-fall-and-rise-of-the-supercomputer-in-the-cloud-era/)
+1.  [ZDNET: NASA gets SGI 2048-core Itanium 2 supercomputer](https://www.zdnet.com/article/nasa-gets-sgi-2048-core-itanium-2-supercomputer/)
+1.  [ZDNET: ​Supercomputers: All Linux, all the time](https://www.zdnet.com/article/supercomputers-all-linux-all-the-time/)
+1.  [TheRegister: What should replace Linpack for ranking supercomputers?](https://www.theregister.com/2013/06/21/hpcg_supercomputing_benchmark_proposal/)
 
 [\[1\]]: https://link.springer.com/chapter/10.1007/3-540-18991-2_27/
 [\[2\]]: https://www.osti.gov/servlets/purl/1089988/

@@ -18,7 +18,9 @@
 Here's a citation block in APA format:
 
 <div style="font-family: 'Noto Serif'; text-align: right;">
-Cohen, B., Frazee, D., Graboi, M., Gunter, J., Hoffman, G. & Stoops, C. (2022). <i>Chia Business Whitepaper</i>. Chia Network Inc. https://www.chia.net/wp-content/uploads/2022/07/Chia-Business-Whitepaper-2022-02-02-v2.0.pdf
+Cohen, B., Frazee, D., Graboi, M., Gunter, J., Hoffman, G. & Stoops, C. (2022).
+<i>Chia Business Whitepaper</i>. Chia Network Inc.
+https://www.chia.net/wp-content/uploads/2022/07/Chia-Business-Whitepaper-2022-02-02-v2.0.pdf
 </div>
 
 ## Problem 2
@@ -59,14 +61,14 @@ public, a giant setback they are yet to recover.<sup>[\[5\]]</sup>
 The term **contribution** is ambiguous. Nevertheless in this solution, it refers
 to financial contribution as the paper is business-oriented.
 
-1. **Early conception**: Founded by the inventor of *BitTorrent*, presumably
-  using the BitTorrent winning as the initial Chia funding.
-2. **Pre-alpha stage**: A round of investements from the likes of *A16Z*,
-  *Greylock*, *True Ventures*, *Naval*, *Galaxy Digital*, *Metastable*, and
-  others.
-3. **Strategic reserve**: The company has pledged to conserve 21 million XHC
-  &mdash; Chia's native coin &mdash; as a fallback option for the darker days
-  ahead.
+1.  **Early conception:** Founded by the inventor of *BitTorrent*, presumably
+    using the BitTorrent winning as the initial Chia funding.
+1.  **Pre-alpha stage:** A round of investements from the likes of *A16Z*,
+    *Greylock*, *True Ventures*, *Naval*, *Galaxy Digital*, *Metastable*, and
+    others.
+1.  **Strategic reserve:** The company has pledged to conserve 21 million XHC
+    &mdash; Chia's native coin &mdash; as a fallback option for the darker days
+    ahead.
 
 ## Problem 4
 
@@ -99,24 +101,25 @@ sustainibility issue commonly rampant among blockchain networks with sharding.<s
 
 > Pros: Identify 3 things that this paper does well.
 
-1. **Regularly updated**: The previous paper version 1.1 is released just
-  in 2021.
-2. **Correct prediction**: Rightfully assumes that NAND &mdash; electronic part
-  essential for SSD &mdash; price will continue to plummet.<sup>[\[7\]]</sup>
-3. **Lawful**: Provides adequate insight into the inner works of legal and
-  financial system.
+1.  **Regularly updated:** The previous paper version 1.1 is released just
+    in 2021.
+1.  **Correct prediction:** Rightfully assumes that NAND &mdash; electronic part
+    essential for SSD &mdash; price will continue to plummet.<sup>[\[7\]]</sup>
+1.  **Lawful:** Provides adequate insight into the inner works of legal and
+    financial system.
 
 ## Problem 6
 
 > Cons: Identify 3 things that this paper could do better.
 
-1. **Repetitive information**: Some pieces of information are not streamlined.
+1. **Repetitive information:** Some pieces of information are not streamlined.
   (more at [#7](#problem-7))
-2. **Doesn't dicuss drawbacks**: For example, the barrier in participating in
-  the blockchain is still high with most builds requiring enterprise-grade SSDs
-  or extreme-capacity HDDs.
-3. **Imperfect security**: Its security can hypothetically still be improved, as
-  explained in academic paper *Secure Plot Transfer for the Chia Blockchain*.<sup>[\[3\]]</sup>
+1. **Doesn't dicuss drawbacks:** For example, the barrier in participating in
+   the blockchain is still high with most builds requiring enterprise-grade SSDs
+   or extreme-capacity HDDs.
+1. **Imperfect security:** Its security can hypothetically still be improved, as
+   explained in academic paper *Secure Plot Transfer for the Chia Blockchain*.
+   <sup>[\[3\]]</sup>
 
 ## Problem 7
 
@@ -146,14 +149,22 @@ process and every bit of hardware leverage could help.<sup>[\[8\]]</sup>
 
 ## References
 
-1. [Cohen, B., & Pietrzak, K. (2019). *The chia network blockchain*. vol, 1, 1-44.](https://www.chivescoin.org/wp-content/uploads/2021/10/ChiaGreenPaper.pdf)
-2. [Chow, S. S., Lai, Z., Liu, C., Lo, E., & Zhao, Y. (2018, July). *Sharding blockchain*. In 2018 IEEE international conference on internet of things (iThings) and IEEE Green computing and communications (GreenCom) and IEEE cyber, physical and social computing (CPSCom) and IEEE smart data (SmartData) (pp. 1665-1665). IEEE.](https://ieeexplore.ieee.org/abstract/document/8726639/)
-3. [Agrawal, S. (2022). *Secure Plot Transfer for the Chia Blockchain*. Cryptology ePrint Archive.](https://eprint.iacr.org/2022/871.pdf)
-4. [Cointelegraph: Chia raises $61M for ‘eco-friendly’ crypto despite critics](https://cointelegraph.com/news/chia-raises-61m-for-eco-friendly-crypto-despite-critics/)
-5. [Bloomberg: Crypto Startup Chia’s New CEO Isn’t Giving Up on IPO Goals](https://www.bloomberg.com/news/articles/2023-01-19/crypto-startup-chia-s-new-ceo-isn-t-giving-up-on-ipo-goals)
-6. [The White House: FACT SHEET: Climate and Energy Implications of Crypto-Assets in the United States](https://www.whitehouse.gov/ostp/news-updates/2022/09/08/fact-sheet-climate-and-energy-implications-of-crypto-assets-in-the-united-states/)
-7. [Tom's Hardware: How Low Can SSD Prices Go? TrendForce Expects NAND Price Decline to Continue](https://www.tomshardware.com/news/trendforce-expects-nand-flash-prices-to-continue-falling/)
-8. [Chia News: Plotting Chia's Future](https://www.chia.net/2023/01/20/plotting-chias-future/)
+1.  [Cohen, B., & Pietrzak, K. (2019). *The chia network blockchain*. vol, 1,
+    1-44.](https://www.chivescoin.org/wp-content/uploads/2021/10/ChiaGreenPaper.pdf)
+1.  [Chow, S. S., Lai, Z., Liu, C., Lo, E., & Zhao, Y. (2018, July). *Sharding
+    blockchain*. In 2018 IEEE international conference on internet of things
+    (iThings) and IEEE Green computing and communications (GreenCom) and IEEE
+    cyber, physical and social computing (CPSCom) and IEEE smart data
+    (SmartData) (pp. 1665-1665). IEEE.](https://ieeexplore.ieee.org/abstract/document/8726639/)
+1.  [Agrawal, S. (2022). *Secure Plot Transfer for the Chia Blockchain*.
+    Cryptology ePrint Archive.](https://eprint.iacr.org/2022/871.pdf)
+1.  [Cointelegraph: Chia raises $61M for ‘eco-friendly’ crypto despite critics](https://cointelegraph.com/news/chia-raises-61m-for-eco-friendly-crypto-despite-critics/)
+1.  [Bloomberg: Crypto Startup Chia’s New CEO Isn’t Giving Up on IPO Goals](https://www.bloomberg.com/news/articles/2023-01-19/crypto-startup-chia-s-new-ceo-isn-t-giving-up-on-ipo-goals)
+1.  [The White House: FACT SHEET: Climate and Energy Implications of
+    Crypto-Assets in the United States](https://www.whitehouse.gov/ostp/news-updates/2022/09/08/fact-sheet-climate-and-energy-implications-of-crypto-assets-in-the-united-states/)
+1.  [Tom's Hardware: How Low Can SSD Prices Go? TrendForce Expects NAND Price
+    Decline to Continue](https://www.tomshardware.com/news/trendforce-expects-nand-flash-prices-to-continue-falling/)
+1.  [Chia News: Plotting Chia's Future](https://www.chia.net/2023/01/20/plotting-chias-future/)
 
 [\[1\]]: https://www.chivescoin.org/wp-content/uploads/2021/10/ChiaGreenPaper.pdf
 [\[2\]]: https://ieeexplore.ieee.org/abstract/document/8726639/

@@ -56,9 +56,10 @@ possibility of smart vehicles since 2012, there were doubts in those days about
 computer reliability and cyber security.<sup>[\[8\]]</sup> But within just under
 a decade, the government has demonstrated multiple capacities to pass bills,
 establish standards, and reduce human errors to improve automated driving for
-the years to come.<sup>[\[9\]]</sup><sup>[\[10\]]</sup><sup>[\[11\]]</sup> I argue
-that given the scope and impact of various cryptocurrencies on society, they
-warrant the same government involvement as self-driving car technology does.
+the years to come.<sup>[\[9\]]</sup><sup>[\[10\]]</sup><sup>[\[11\]]</sup> I
+argue that given the scope and impact of various cryptocurrencies on society,
+they warrant the same government involvement as self-driving car technology
+does.
 
 There is also an equally concerning internal-design issue of sustainability
 besides the external changes, like regulations. For some of time now, it has
@@ -70,19 +71,23 @@ place for all cryptocurrencies.<sup>[\[13\]]</sup>
 
 ## References
 
-1. [Bloomberg: The Blockchain Is Starting to Live Up to Its Potential](https://www.bloomberg.com/opinion/articles/2021-07-27/the-blockchain-is-starting-to-live-up-to-its-potential)
-2. [Investopedia: Bitcoin's Price History](https://www.investopedia.com/articles/forex/121815/bitcoins-price-history.asp)
-3. [NPR: 2022 was the year crypto came crashing down to Earth](https://www.npr.org/2022/12/29/1145297807/crypto-cVrash-ftx-cryptocurrency-bitcoin/)
-4. [The UK News: UK launches initiative to explore potential of virtual currencies](https://www.theuknews.com/news/224504231/uk-launches-initiative-to-explore-potential-of-virtual-currencies/)
-5. [MercoPress: Bitcoin legal tender in El Salvador, first country ever](https://en.mercopress.com/2021/06/10/bitcoin-legal-tender-in-el-salvador-first-country-ever/)
-6. [BBC: China declares all crypto-currency transactions illegal](https://www.bbc.com/news/technology-58678907/)
-7. [Bloomberg: Bankman-Fried Resigns From FTX, Puts Empire in Bankruptcy](https://www.bloomberg.com/news/articles/2022-11-11/ftx-com-goes-bankrupt-in-stunning-reversal-for-crypto-exchange)
-8. [Smith, B. W. (2013). *Automated vehicles are probably legal in the United States*. Tex. A&M L. Rev., 1, 411.](https://cyberlaw.stanford.edu/publications/automated-vehicles-are-probably-legal-united-states/)
-9. [U.S. Department of Transportation](https://www.transportation.gov/AV/federal-automated-vehicles-policy-september-2016/)
-10. [The New York Times: Self-Driving Cars Gain Powerful Ally: The Government](https://www.nytimes.com/2016/09/20/technology/self-driving-cars-guidelines.html)
-11. [NHTSA: NHTSA Issues First-Ever Proposal to Modernize Occupant Protection Safety Standards for Vehicles Without Manual Controls](https://www.nhtsa.gov/press-releases/nhtsa-issues-first-ever-proposal-modernize-occupant-protection-safety-standards/)
-12. [The New York Times: Bitcoin Uses More Electricity Than Many Countries. How is That Possible?](https://www.nytimes.com/interactive/2021/09/03/climate/bitcoin-carbon-footprint-electricity.html)
-13. [Bloomberg: Ethereum Finishes Long-Awaited Energy-Saving ‘Merge’ Upgrade](https://www.bloomberg.com/news/articles/2022-09-15/ethereum-completes-long-awaited-energy-saving-merge-upgrade)
+1.  [Bloomberg: The Blockchain Is Starting to Live Up to Its Potential](https://www.bloomberg.com/opinion/articles/2021-07-27/the-blockchain-is-starting-to-live-up-to-its-potential)
+1.  [Investopedia: Bitcoin's Price History](https://www.investopedia.com/articles/forex/121815/bitcoins-price-history.asp)
+1.  [NPR: 2022 was the year crypto came crashing down to Earth](https://www.npr.org/2022/12/29/1145297807/crypto-cVrash-ftx-cryptocurrency-bitcoin/)
+1.  [The UK News: UK launches initiative to explore potential of virtual
+    currencies](https://www.theuknews.com/news/224504231/uk-launches-initiative-to-explore-potential-of-virtual-currencies/)
+1.  [MercoPress: Bitcoin legal tender in El Salvador, first country ever](https://en.mercopress.com/2021/06/10/bitcoin-legal-tender-in-el-salvador-first-country-ever/)
+1.  [BBC: China declares all crypto-currency transactions illegal](https://www.bbc.com/news/technology-58678907/)
+1.  [Bloomberg: Bankman-Fried Resigns From FTX, Puts Empire in Bankruptcy](https://www.bloomberg.com/news/articles/2022-11-11/ftx-com-goes-bankrupt-in-stunning-reversal-for-crypto-exchange)
+1.  [Smith, B. W. (2013). *Automated vehicles are probably legal in the United
+    States*. Tex. A&M L. Rev., 1, 411.](https://cyberlaw.stanford.edu/publications/automated-vehicles-are-probably-legal-united-states/)
+1.  [U.S. Department of Transportation](https://www.transportation.gov/AV/federal-automated-vehicles-policy-september-2016/)
+1.  [The New York Times: Self-Driving Cars Gain Powerful Ally: The Government](https://www.nytimes.com/2016/09/20/technology/self-driving-cars-guidelines.html)
+1.  [NHTSA: NHTSA Issues First-Ever Proposal to Modernize Occupant Protection
+    Safety Standards for Vehicles Without Manual Controls](https://www.nhtsa.gov/press-releases/nhtsa-issues-first-ever-proposal-modernize-occupant-protection-safety-standards/)
+1.  [The New York Times: Bitcoin Uses More Electricity Than Many Countries. How
+    is That Possible?](https://www.nytimes.com/interactive/2021/09/03/climate/bitcoin-carbon-footprint-electricity.html)
+1.  [Bloomberg: Ethereum Finishes Long-Awaited Energy-Saving ‘Merge’ Upgrade](https://www.bloomberg.com/news/articles/2022-09-15/ethereum-completes-long-awaited-energy-saving-merge-upgrade)
 
 [\[1\]]: https://www.bloomberg.com/opinion/articles/2021-07-27/the-blockchain-is-starting-to-live-up-to-its-potential
 [\[2\]]: https://www.investopedia.com/articles/forex/121815/bitcoins-price-history.asp

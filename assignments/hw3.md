@@ -17,7 +17,10 @@
 Here's a citation block in APA format:
 
 <div style="font-family: 'Noto Serif'; text-align: right;">
-Chard, K., Giannakou, A., Orhean, A. I., Raicu, I., Ramakrishnan, L. (2022). <i>SCANNS: Towards Scalable and Concurrent Data Indexing and Searching in High-End Computing System</i>. http://datasys.cs.iit.edu/publications/2022_CCGrid22-SCANNS.pdf
+Chard, K., Giannakou, A., Orhean, A. I., Raicu, I., Ramakrishnan, L. (2022).
+<i>SCANNS: Towards Scalable and Concurrent Data Indexing and Searching in
+High-End Computing System</i>.
+http://datasys.cs.iit.edu/publications/2022_CCGrid22-SCANNS.pdf
 </div>
 
 ## Problem 2
@@ -55,14 +58,14 @@ of SCANNS, some of which are related to NUMA configuration.<sup>[\[2\]]</sup>
 
 > What are the core contributions of this paper (1~3 items)?
 
-1. **Embrace unified memory**: NUMA nodes are here to stay in HPC for their
-  modularity and scalability. Unlike conventional clusters, they are not known
-  to have bandwidth issues within their inter-nodal links.
-2. **Optimize every operation**: Performance advancement in enterprise search
-  often requires tuning in specific areas. In SCANNS' case, the file reader and
-  tokenizer have been heavily modified.
-3. **Highly experimental**: Currently a work in progress, but still yields
-  impressive results within the restrictive environment.
+1.  **Embrace unified memory:** NUMA nodes are here to stay in HPC for their
+    modularity and scalability. Unlike conventional clusters, they are not known
+    to have bandwidth issues within their inter-nodal links.
+1.  **Optimize every operation:** Performance advancement in enterprise search
+    often requires tuning in specific areas. In SCANNS' case, the file reader
+    and tokenizer have been heavily modified.
+1.  **Highly experimental:** Currently a work in progress, but still yields
+    impressive results within the restrictive environment.
 
 ## Problem 4
 
@@ -96,29 +99,30 @@ surprise that they are ahead in research and marketing.
 
 > Pros: Identify 3 things that this paper does well.
 
-1. **Not all about hardware**: The paper acknowledges that the indexing
-  algorithm also plays an important role to reach the maximum potential of any
-  given hardware.
-2. **Benchmarking many variants**: The authors experiment with numerous builds
-  to evaluate how well each optimization is doing.
-3. **Development insights**: The authors spent an adequate amount of time
-  talking about current development progress and the roadmap for what lies
-  ahead. In this instance, they explore the possibility of persistent indexing
-  using Intel Optane DC drives.
+1.  **Not all about hardware:** The paper acknowledges that the indexing
+    algorithm also plays an important role to reach the maximum potential of any
+    given hardware.
+1.  **Benchmarking many variants:** The authors experiment with numerous builds
+    to evaluate how well each optimization is doing.
+1.  **Development insights:** The authors spent an adequate amount of time
+    talking about current development progress and the roadmap for what lies
+    ahead. In this instance, they explore the possibility of persistent indexing
+    using Intel Optane DC drives.
 
 ## Problem 6
 
 > Cons: Identify 3 things that this paper could do better.
 
-1. **Deceptively advertised facts**: The figure up to 19&times; faster indexing
-  and 280&times; lower search latency are backed up by extremely selective data.
-2. **Unmeaningful gain with commodity hardware**: Peak performance is only
-  realistic using high-end components typically found in server stacks rather
-  than home desktops. This is a criticism of the technology rather than the
-  paper itself, but the paper could shed some light on it.
-3. **Code and licensing**: There is no information on source code repository and
-  licensing. I believe they are required to, since they use [libnuma](https://github.com/numactl/numactl/),
-  a GNU-licensed library.
+1.  **Deceptively advertised facts:** The figure up to 19&times; faster indexing
+    and 280&times; lower search latency are backed up by extremely selective
+    data.
+1.  **Unmeaningful gain with commodity hardware:** Peak performance is only
+    realistic using high-end components typically found in server stacks rather
+    than home desktops. This is a criticism of the technology rather than the
+    paper itself, but the paper could shed some light on it.
+1.  **Code and licensing:** There is no information on source code repository and
+    licensing. I believe they are required to, since they use [libnuma](https://github.com/numactl/numactl/),
+    a GNU-licensed library.
 
 ## Problem 7
 
@@ -145,13 +149,20 @@ details in the *Ranking Algorithm* section.
 
 ## References
 
-1. [Mukherjee, R., & Mao, J. (2004). *Enterprise Search: Tough Stuff: Why is it that searching an intranet is so much harder than searching the Web?*. Queue, 2(2), 36-46.](https://dl.acm.org/doi/pdf/10.1145/988392.988406/)
-2. [Lameter, C. (2013). *NUMA (Non-Uniform Memory Access): An Overview: NUMA becomes more common because memory controllers get close to execution units on microprocessors*. Queue, 11(7), 40-51.](https://dl.acm.org/doi/pdf/10.1145/2508834.2513149/)
-3. [Smiley, D., Mitchell, M., Parisa, K., Pugh, E. (2015). *Apache Solr Enterprise Search Server - Third Edition*. United Kingdom: Packt Publishing.](https://www.google.com/books/edition/_/u6GrCQAAQBAJ/)
-4. [Balipa, M., & Balasubramani, R. (2015). *Search engine using apache lucene*. International Journal of Computer Applications, 127(9), 27-30.](https://www.researchgate.net/profile/Balasubramani-Ramasamy/publication/283771724_Search_Engine_using_Apache_Lucene/links/5b90bb6845851540d1d12d14/Search-Engine-using-Apache-Lucene.pdf)
-5. [Medium: What is Apache Solr](https://johnthuma.medium.com/what-is-apache-solr-a18a60004e70/)
-6. [Computerworld: How to choose an enterprise search platform](https://www.computerworld.com/article/3655951/how-to-choose-an-enterprise-search-platform.html)
-7. [Digitalthoughts: Semantic Search: Understanding the Technology and Its Significance in New Age Enterprise Search](https://blog.thedigitalgroup.com/semantic-search-understanding-the-technology-and-its-significance-in-new-age-enterprise-search/)
+1.  [Mukherjee, R., & Mao, J. (2004). *Enterprise Search: Tough Stuff: Why is it
+    that searching an intranet is so much harder than searching the Web?*.
+    Queue, 2(2), 36-46.](https://dl.acm.org/doi/pdf/10.1145/988392.988406/)
+1.  [Lameter, C. (2013). *NUMA (Non-Uniform Memory Access): An Overview: NUMA
+    becomes more common because memory controllers get close to execution units
+    on microprocessors*. Queue, 11(7), 40-51.](https://dl.acm.org/doi/pdf/10.1145/2508834.2513149/)
+1.  [Smiley, D., Mitchell, M., Parisa, K., Pugh, E. (2015). *Apache Solr
+    Enterprise Search Server - Third Edition*. United Kingdom: Packt Publishing.](https://www.google.com/books/edition/_/u6GrCQAAQBAJ/)
+1.  [Balipa, M., & Balasubramani, R. (2015). *Search engine using apache
+    lucene*. International Journal of Computer Applications, 127(9), 27-30.](https://www.researchgate.net/profile/Balasubramani-Ramasamy/publication/283771724_Search_Engine_using_Apache_Lucene/links/5b90bb6845851540d1d12d14/Search-Engine-using-Apache-Lucene.pdf)
+1.  [Medium: What is Apache Solr](https://johnthuma.medium.com/what-is-apache-solr-a18a60004e70/)
+1.  [Computerworld: How to choose an enterprise search platform](https://www.computerworld.com/article/3655951/how-to-choose-an-enterprise-search-platform.html)
+1.  [Digitalthoughts: Semantic Search: Understanding the Technology and Its
+    Significance in New Age Enterprise Search](https://blog.thedigitalgroup.com/semantic-search-understanding-the-technology-and-its-significance-in-new-age-enterprise-search/)
 
 [\[1\]]: https://dl.acm.org/doi/pdf/10.1145/988392.988406/
 [\[2\]]: https://dl.acm.org/doi/pdf/10.1145/2508834.2513149/

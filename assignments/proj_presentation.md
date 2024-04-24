@@ -4,41 +4,41 @@ Phases: https://www.chia.net/wp-content/uploads/2023/01/proof_of_space.pdf
 
 ## Group
 
-![Slide 1](https://github.com/hendraanggrian/IIT-CS554/raw/assets/bladebit-research/slide1.png)
+![Slide 1](https://github.com/hendraanggrian/IIT-CS554/raw/assets/bladebit/slide1.png)
 
 ## Introduction 1
 
-![Slide 2](https://github.com/hendraanggrian/IIT-CS554/raw/assets/bladebit-research/slide2.png)
+![Slide 2](https://github.com/hendraanggrian/IIT-CS554/raw/assets/bladebit/slide2.png)
 
 > Partner's part.
 
 ## Introduction 2
 
-![Slide 3](https://github.com/hendraanggrian/IIT-CS554/raw/assets/bladebit-research/slide3.png)
+![Slide 3](https://github.com/hendraanggrian/IIT-CS554/raw/assets/bladebit/slide3.png)
 
 > Partner's part.
 
 ## Introduction 3
 
-![Slide 4](https://github.com/hendraanggrian/IIT-CS554/raw/assets/bladebit-research/slide4.png)
+![Slide 4](https://github.com/hendraanggrian/IIT-CS554/raw/assets/bladebit/slide4.png)
 
 > Partner's part.
 
 ## Background
 
-![Slide 5](https://github.com/hendraanggrian/IIT-CS554/raw/assets/bladebit-research/slide5.png)
+![Slide 5](https://github.com/hendraanggrian/IIT-CS554/raw/assets/bladebit/slide5.png)
 
 > Partner's part.
 
 ## Motivation
 
-![Slide 6](https://github.com/hendraanggrian/IIT-CS554/raw/assets/bladebit-research/slide6.png)
+![Slide 6](https://github.com/hendraanggrian/IIT-CS554/raw/assets/bladebit/slide6.png)
 
 > Partner's part.
 
 ## Proposed Solution
 
-![Slide 7](https://github.com/hendraanggrian/IIT-CS554/raw/assets/bladebit-research/slide7.png)
+![Slide 7](https://github.com/hendraanggrian/IIT-CS554/raw/assets/bladebit/slide7.png)
 
 - We propose test results using commodity hardware.
   - This personal desktop lies in between the minimum and recommended system
@@ -50,7 +50,7 @@ Phases: https://www.chia.net/wp-content/uploads/2023/01/proof_of_space.pdf
 
 ## Evaluation 1
 
-![Slide 8](https://github.com/hendraanggrian/IIT-CS554/raw/assets/bladebit-research/slide8.png)
+![Slide 8](https://github.com/hendraanggrian/IIT-CS554/raw/assets/bladebit/slide8.png)
 
 - The first phase is what they called forward-propagating.
 - During this process, they are creating temporary files with. Different plotter
@@ -61,7 +61,7 @@ Phases: https://www.chia.net/wp-content/uploads/2023/01/proof_of_space.pdf
 
 ## Evaluation 2
 
-![Slide 9](https://github.com/hendraanggrian/IIT-CS554/raw/assets/bladebit-research/slide9.png)
+![Slide 9](https://github.com/hendraanggrian/IIT-CS554/raw/assets/bladebit/slide9.png)
 
 - In the second stage, they scan the last 6 tables, sort them and keep the
   sorted keys in a column.
@@ -70,7 +70,7 @@ Phases: https://www.chia.net/wp-content/uploads/2023/01/proof_of_space.pdf
 
 ## Evaluation 3
 
-![Slide 10](https://github.com/hendraanggrian/IIT-CS554/raw/assets/bladebit-research/slide10.png)
+![Slide 10](https://github.com/hendraanggrian/IIT-CS554/raw/assets/bladebit/slide10.png)
 
 - The third phase is all about compression.
 - All tables change from a column-based system to double-pointers.
@@ -78,7 +78,7 @@ Phases: https://www.chia.net/wp-content/uploads/2023/01/proof_of_space.pdf
 
 ## Evaluation 4
 
-![Slide 11](https://github.com/hendraanggrian/IIT-CS554/raw/assets/bladebit-research/slide11.png)
+![Slide 11](https://github.com/hendraanggrian/IIT-CS554/raw/assets/bladebit/slide11.png)
 
 - In the last phase, there are always 16 buckets for bucket sort.
 - What is interesting about this phase is Chia automatically checks if your
@@ -88,7 +88,7 @@ Phases: https://www.chia.net/wp-content/uploads/2023/01/proof_of_space.pdf
 
 ## Evaluation 5
 
-![Slide 12](https://github.com/hendraanggrian/IIT-CS554/raw/assets/bladebit-research/slide12.png)
+![Slide 12](https://github.com/hendraanggrian/IIT-CS554/raw/assets/bladebit/slide12.png)
 
 - Over here are our findings, down below there are two `k25` plots, done in
   about 2-3 minutes.
@@ -100,19 +100,19 @@ Phases: https://www.chia.net/wp-content/uploads/2023/01/proof_of_space.pdf
 
 ## Related work
 
-![Slide 13](https://github.com/hendraanggrian/IIT-CS554/raw/assets/bladebit-research/slide13.png)
+![Slide 13](https://github.com/hendraanggrian/IIT-CS554/raw/assets/bladebit/slide13.png)
 
 > Partner's part.
 
 ## Conclusion 1
 
-![Slide 14](https://github.com/hendraanggrian/IIT-CS554/raw/assets/bladebit-research/slide14.png)
+![Slide 14](https://github.com/hendraanggrian/IIT-CS554/raw/assets/bladebit/slide14.png)
 
 > Partner's part.
 
 ## Conclusion 2
 
-![Slide 15](https://github.com/hendraanggrian/IIT-CS554/raw/assets/bladebit-research/slide15.png)
+![Slide 15](https://github.com/hendraanggrian/IIT-CS554/raw/assets/bladebit/slide15.png)
 
 - In future work, we could leverage other hardware such as RAM and GPU.
 - Both Chia and madMAx are strict about NVIDIA requirements.
