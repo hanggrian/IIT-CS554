@@ -1,4 +1,4 @@
-# [Homework 1](https://github.com/hendraanggrian/IIT-CS554/blob/assets/assignments/hw1.pdf): Blockchain technology
+# [Homework 1](https://github.com/hanggrian/IIT-CS554/blob/assets/assignments/hw1.pdf): Blockchain technology
 
 > Write a 1-page essay (1” margins, 11-point font Arial or Times New Roman,
   single spaced, single column) on what you believe Blockchain Technologies to

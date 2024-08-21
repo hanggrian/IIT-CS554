@@ -143,7 +143,7 @@ section, we try to interpret what each phase does to our best understanding.
 
 ### A. Phase 1: Forward-progragation
 
-![Figure 1.1 &ndash; Phase 1: Temporary and final file layout](https://github.com/hendraanggrian/IIT-CS554/raw/assets/bladebit/phase1.svg)<br><small>Figure 1.1 &ndash; Phase 1: Temporary and final file layout</small><br><br><br>
+![Figure 1.1 &ndash; Phase 1: Temporary and final file layout](https://github.com/hanggrian/IIT-CS554/raw/assets/bladebit/phase1.svg)<br><small>Figure 1.1 &ndash; Phase 1: Temporary and final file layout</small><br><br><br>
 
 Upon plot creation, Chia spawns a `chia` process that generates cryptographic
 hashes starting with a seed value. The plotter first generates a table of random
@@ -152,7 +152,7 @@ It also creates and locks the final plot file.
 
 ### B. Phase 2: Back-progragation
 
-![Figure 1.2 &ndash; Phase 2: Table illustration within temporary files](https://github.com/hendraanggrian/IIT-CS554/raw/assets/bladebit/phase2.svg)<br><small>Figure 1.2 &ndash; Phase 2: Table illustration within temporary files</small><br><br><br>
+![Figure 1.2 &ndash; Phase 2: Table illustration within temporary files](https://github.com/hanggrian/IIT-CS554/raw/assets/bladebit/phase2.svg)<br><small>Figure 1.2 &ndash; Phase 2: Table illustration within temporary files</small><br><br><br>
 
 The plotter then scans the plot file generated in Phase 1 and re-arranges the
 data in a way that is more optimized for reading. This involves grouping the
@@ -161,7 +161,7 @@ a temporary file.
 
 ### C. Phase 3: Compression
 
-![Figure 1.3 &ndash; Phase 3: Migrating to double-pointers](https://github.com/hendraanggrian/IIT-CS554/raw/assets/bladebit/phase3.svg)<br><small>Figure 1.3 &ndash; Phase 3: Migrating to double-pointers</small><br><br><br>
+![Figure 1.3 &ndash; Phase 3: Migrating to double-pointers](https://github.com/hanggrian/IIT-CS554/raw/assets/bladebit/phase3.svg)<br><small>Figure 1.3 &ndash; Phase 3: Migrating to double-pointers</small><br><br><br>
 
 Chia compresses the data generated in phases 2 using a compression algorithm
 called *Zstd* to reduce the size of the final plot. This process involves
@@ -172,7 +172,7 @@ transfer over the network.\[11]
 
 ### D. Phase 4: Completion
 
-![Figure 1.4 &ndash; Phase 4: Writing final file](https://github.com/hendraanggrian/IIT-CS554/raw/assets/bladebit/phase4.svg)<br><small>Figure 1.4 &ndash; Phase 4: Writing final file</small><br><br><br>
+![Figure 1.4 &ndash; Phase 4: Writing final file](https://github.com/hanggrian/IIT-CS554/raw/assets/bladebit/phase4.svg)<br><small>Figure 1.4 &ndash; Phase 4: Writing final file</small><br><br><br>
 
 The final phase consists of bucket sorting and writing the compressed data to
 the final plot file while emptying the temporary directory. This sorting is
@@ -212,7 +212,7 @@ This commodity hardware will be tested against 3 plotters:
 - **mm** &ndash; *madMAx Plotter (1.1.6-2092041)*: The alternate plotter
   managed by the community.
 
-![Figure 2.1 &ndash; k25 plotting time](https://github.com/hendraanggrian/IIT-CS554/raw/assets/bladebit/finding1.svg)<br><small>Figure 2.1 &ndash; k25 plotting time</small><br><br><br>
+![Figure 2.1 &ndash; k25 plotting time](https://github.com/hanggrian/IIT-CS554/raw/assets/bladebit/finding1.svg)<br><small>Figure 2.1 &ndash; k25 plotting time</small><br><br><br>
 
 Unsurprisingly, k25 plotters are finished within minutes of conception. Plot
 size k25 generates too less cryptographic hashes to be considered secure for
@@ -220,7 +220,7 @@ general use. Due to this characteristic, the mainnet no longer permits plot
 sizes under k32 since 2021 and is confirmed to stand until the end of 2023.\[12]
 It is a 2-level upgrade from the k30 agreement first set in 2020.
 
-![Figure 2.2 &ndash; k32 plotting time](https://github.com/hendraanggrian/IIT-CS554/raw/assets/bladebit/finding2.svg)<br><small>Figure 2.2 &ndash; k32 plotting time</small><br><br><br>
+![Figure 2.2 &ndash; k32 plotting time](https://github.com/hanggrian/IIT-CS554/raw/assets/bladebit/finding2.svg)<br><small>Figure 2.2 &ndash; k32 plotting time</small><br><br><br>
 
 k32 plot size is the most popular, minimum requirement of the mainnet network
 and the BladeBit plotters. The plotters average around 13 hours of completion,
@@ -234,7 +234,7 @@ fail due to indistinguishable errors during Phase 2. As we navigate through
 experimental builds of BladeBit, it is clear to us that our case is not
 isolated.\[13]
 
-![Figure 2.3 &ndash; Average by k-size](https://github.com/hendraanggrian/IIT-CS554/raw/assets/bladebit/finding3.svg)<br><small>Figure 2.3 &ndash; Average by k-size</small><br><br><br>
+![Figure 2.3 &ndash; Average by k-size](https://github.com/hanggrian/IIT-CS554/raw/assets/bladebit/finding3.svg)<br><small>Figure 2.3 &ndash; Average by k-size</small><br><br><br>
 
 Our final graph indicates the average time needed for each k-size. Given the k25
 and k32 elapsed plotting time, we estimate 2.17 times increase for every k-level
@@ -292,7 +292,7 @@ alternate plots still stands.
 
 ### B. Future Work
 
-![Figure 3 &ndash; Future work](https://github.com/hendraanggrian/IIT-CS554/raw/assets/bladebit/types.svg)<br><small>Figure 3 &ndash; Future work</small><br><br><br>
+![Figure 3 &ndash; Future work](https://github.com/hanggrian/IIT-CS554/raw/assets/bladebit/types.svg)<br><small>Figure 3 &ndash; Future work</small><br><br><br>
 
 The tests listed in the finding section are performed solely on disk. With such
 a perspective, future explorations could leverage other parts of hardware namely

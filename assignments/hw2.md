@@ -1,4 +1,4 @@
-# [Homework 2](https://github.com/hendraanggrian/IIT-CS554/blob/assets/assignments/hw2.pdf): *Chia* Business Whitepaper
+# [Homework 2](https://github.com/hanggrian/IIT-CS554/blob/assets/assignments/hw2.pdf): *Chia* Business Whitepaper
 
 > You are to read the [Chia Business Whitepaper](https://www.chia.net/wp-content/uploads/2022/07/Chia-Business-Whitepaper-2022-02-02-v2.0.pdf)
   that discusses in detail the Proof of Space algorithm: Your review must be

@@ -1,4 +1,4 @@
-# [Homework 4](https://github.com/hendraanggrian/IIT-CS554/blob/assets/assignments/hw4.pdf): *LINPACK* Benchmark
+# [Homework 4](https://github.com/hanggrian/IIT-CS554/blob/assets/assignments/hw4.pdf): *LINPACK* Benchmark
 
 > You are to read the 2003 [LINPACK paper](https://onlinelibrary.wiley.com/doi/pdf/10.1002/cpe.728)
   that discusses in detail the Linpack Benchmark, which has been used for
